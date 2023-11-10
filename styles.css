@@ -143,7 +143,7 @@ html, body {
   transform: translate(10px, 10px);
   width: 35px;
   height: 35px;
-  background: #ffffff15;
+  background: rgba(232, 224, 224, 0.792);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 50px;
