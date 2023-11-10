@@ -13,10 +13,9 @@
 <body>
     
     <div class="rosto">
-        <h1>Certidão Digital</h1>
+        <h1>Pesquisa Qualificada</h1>
         <p>Registro de imóveis</p>
     </div>
-
 
     <div class="chamado">
         <button id="toggleButton1">1</button>
@@ -31,28 +30,29 @@
         <button class="button-85" role="button" id="nextButton">&#9655;</button>
     </div>
     
-        <!-- CARD -->
-        <div class="card" id="card1">
-           
-          
-            <h3>Passo 1</h3>
-
-            <!-- ICON -->
-            <div class="icon">
-                <iframe src="https://drive.google.com/file/d/1M2kwLC2JEARdbIJK1yYBWa_m7X_ZGiU6/preview" allow="fullscreen"></iframe>
-            </div>
+    <!-- CARD -->
+    <div class="card" id="card1">
+        <h3>Passo 1</h3>
         
-     
+        <!-- ICON -->
+        <div class="icon">
+            <iframe src="https://drive.google.com/file/d/1M2kwLC2JEARdbIJK1yYBWa_m7X_ZGiU6/preview" width="640" height="480"></iframe>
+        </div>
+    
             <!-- CONTENT -->
             <div class="content">
                    <ol> Acesse: </ol> <br>
                    <li>https://registradores.onr.org.br</li>
-                   <li> Novo Pedido </li>
-                   <li> Condições de uso (li e concordo) </li>
-                   <li> Idade, cartório </li>
-                   <li> Tipo de Certidão/Pedido por </li>
-                   <li> Informar o n° da(s) matrícula(s) e informar a finalidade do pedido </li>
-                   <li> Concluir pedido </li>
+                   <li> Necessário fazer o acesso com certificado digital do tipo A1 ou A3, caso
+                    não possua acesse com o certificado do Gov.br
+                   </li>
+                   <li> Concordar com os termos (preciso ter saldo para realizar a compra) </li>
+                   <li> Escolher o estado no mapa </li>
+                   <li> Concordar com os termos de pesquisa eletrônica  </li>
+                   <li> Escolher as cidades que deseja fazer a busca (podendo ser mais de uma por solicitação) e 
+                    depois é só informar que está ciente de que as inoformações podem ser imprecisas
+                   </li>
+                   <li> Escolher os cartórios para pesquisa </li>
             </div>
     
             <!-- READ MORE/LESS BUTTON -->
@@ -70,18 +70,24 @@
             
             <!-- ICON -->
             <div class="icon">
-                <iframe src="https://drive.google.com/file/d/1M2kwLC2JEARdbIJK1yYBWa_m7X_ZGiU6/preview" allow="fullscreen"></iframe>
+                <iframe src="https://drive.google.com/file/d/1M2kwLC2JEARdbIJK1yYBWa_m7X_ZGiU6/preview" width="640" height="480"></iframe>
             </div>
         
             <!-- CONTENT -->
             <div class="content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Voluptatem laborum odit repellendus nihil est sapiente inventore reprehenderit iure tempora voluptatibus saepe vel officiis esse nobis blanditiis porro ea sunt, dolorum quam expedita quasi eius accusamus assumenda atque.
-                    Repellat eum, maxime tenetur laborum rem porro 
-                    quis esse inventore possimus voluptate veritatis.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                </p>
+                
+                <li> Taxa com impostos = R$14,09 </li>
+                <li> Se não tiver o saldo, vai aparecer a opção para compra de créditos </li>
+                <li> Escolher o estado no mapa </li>
+                <li> Preencher os dados para a pesquisa: CPF/CNPJ </li>
+                <li> "Não sou um robô" </li>
+                <li> informar qual o tipo de pesquisa deseja: com imóveis/direitos
+                que seja propietário/títular ou també, os que já foram transferidos</li>
+                <li>Finalizar</li>
+                <li>Resultado da pesquisa</li>
+                <li>Para imprimir o resultado do pesquisado, clicar na opção 
+                "protocolo" no fim da página</li>
+
             </div>
     
             <!-- READ MORE/LESS BUTTON -->
@@ -117,11 +123,23 @@
     
         </div>
 
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".card"), {
+                max: 25,
+                speed: 400
+            });
+            
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".card"));
+        </script>
+<script src="/acesso/js/script.js"></script>
 
-    <!-- JS -->
-    <script src="script.js"></script>
 </body>
 </html>
+
+
+
 
 
 
