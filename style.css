@@ -1,6 +1,12 @@
-  
-/* REDIRECIONAMENTO DO CONTEUDO */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
+/** General **/
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     overflow: hidden;
@@ -10,17 +16,12 @@ body {
     font-size: 15px;
     margin-left: 15px; /* Remove a margem esquerda */
     margin-right: 0; /* Remove a margem direita */
-    font-family: "cebo";
-    margin-top: 25px;
+    margin-top: 10px;
     text-align: left; /* Alinha o texto à esquerda */
   }
   
   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  
   
   
   @font-face {
