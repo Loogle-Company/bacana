@@ -42,5 +42,5 @@ document.querySelector("#buttonclose").addEventListener("click", closeMenu);
 
 function redirecionarParaConteudo() {
   // Redirecionar para a página "conteudo.html"
-  window.location.href = "bacana/index.html";
+  window.location.href = "escolha/index.html";
 }
