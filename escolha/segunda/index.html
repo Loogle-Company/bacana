@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/acesso/css/style.css">
+    
+    <title>Tutoriais</title>
+</head>
+<body>
+    
+    <div class="rosto">
+        <h1>Pesquisa Qualificada</h1>
+        <p>Registro de imóveis</p>
+    </div>
+
+    <div class="chamado">
+        <button id="toggleButton1">1</button>
+        <hr class="linha-fina">
+        <button id="toggleButton2">2</button>
+        <hr class="linha-fina">
+        <button id="toggleButton3">3</button>
+    </div>
+    
+    <div class="carros">
+        <button class="button-86" role="button" id="prevButton">&#9665;</button>
+        <button class="button-85" role="button" id="nextButton">&#9655;</button>
+    </div>
+    
+    <!-- CARD -->
+    <div class="card" id="card1">
+        <h3>Passo 1</h3>
+        
+        <!-- ICON -->
+        <div class="icon">
+            <iframe src="https://drive.google.com/file/d/1M2kwLC2JEARdbIJK1yYBWa_m7X_ZGiU6/preview" width="640" height="480"></iframe>
+        </div>
+    
+            <!-- CONTENT -->
+            <div class="content">
+                   <ol> Acesse: </ol> <br>
+                   <li>https://registradores.onr.org.br</li>
+                   <li> Necessário fazer o acesso com certificado digital do tipo A1 ou A3, caso
+                    não possua acesse com o certificado do Gov.br
+                   </li>
+                   <li> Concordar com os termos (preciso ter saldo para realizar a compra) </li>
+                   <li> Escolher o estado no mapa </li>
+                   <li> Concordar com os termos de pesquisa eletrônica  </li>
+                   <li> Escolher as cidades que deseja fazer a busca (podendo ser mais de uma por solicitação) e 
+                    depois é só informar que está ciente de que as inoformações podem ser imprecisas
+                   </li>
+                   <li> Escolher os cartórios para pesquisa </li>
+            </div>
+    
+            <!-- READ MORE/LESS BUTTON -->
+            <button class="read_button">Ler mais</button>
+    
+        </div>
+        
+
+
+        <!-- CARD -->
+        <div class="card2" id="card2">
+           
+         
+            <h3>Passo 2</h3>
+            
+            <!-- ICON -->
+            <div class="icon">
+                <iframe src="https://drive.google.com/file/d/1M2kwLC2JEARdbIJK1yYBWa_m7X_ZGiU6/preview" width="640" height="480"></iframe>
+            </div>
+        
+            <!-- CONTENT -->
+            <div class="content">
+                
+                <li> Taxa com impostos = R$14,09 </li>
+                <li> Se não tiver o saldo, vai aparecer a opção para compra de créditos </li>
+                <li> Escolher o estado no mapa </li>
+                <li> Preencher os dados para a pesquisa: CPF/CNPJ </li>
+                <li> "Não sou um robô" </li>
+                <li> informar qual o tipo de pesquisa deseja: com imóveis/direitos
+                que seja propietário/títular ou també, os que já foram transferidos</li>
+                <li>Finalizar</li>
+                <li>Resultado da pesquisa</li>
+                <li>Para imprimir o resultado do pesquisado, clicar na opção 
+                "protocolo" no fim da página</li>
+
+            </div>
+    
+            <!-- READ MORE/LESS BUTTON -->
+            <button class="read_button">Ler mais</button>
+    
+        </div>
+
+
+
+        <!-- CARD -->
+        <div class="card3" id="card3">
+           
+            <h3>Passo 3</h3>
+            
+            <!-- ICON -->
+            <div class="icon">
+                <iframe src="https://drive.google.com/file/d/1M2kwLC2JEARdbIJK1yYBWa_m7X_ZGiU6/preview" allow="fullscreen"></iframe>
+            </div>
+        
+            <!-- CONTENT -->
+            <div class="content">
+
+                <p>Cuidado:</p> <br>
+                <p>
+                Se for matrícula com unidade, informar qual bloco e a unidade, infelizmente não está
+                aparecendo a opção do campo para observação, então, pode ser informado no campo "mensagem"
+                após finalizada a solicitação
+                </p>
+            </div>
+    
+            <!-- READ MORE/LESS BUTTON -->
+            <button class="read_button">Ler mais</button>
+    
+        </div>
+
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".card"), {
+                max: 25,
+                speed: 400
+            });
+            
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".card"));
+        </script>
+<script src="/acesso/js/script.js"></script>
+
+</body>
+</html>
+
+
