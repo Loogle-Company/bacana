@@ -27,7 +27,7 @@ body {
   @font-face {
   
     font-family: "cebo"; /* Nome da fonte que você usará */
-    src: url("./afundo/fonts/cebo.ttf"); /* Substitua pelo caminho real do arquivo de fonte */
+    src: url("./escolha/fonts/cebo.ttf"); /* Substitua pelo caminho real do arquivo de fonte */
   
   }
   
@@ -59,7 +59,7 @@ body {
 /* Defina a fonte personalizada usando @font-face */
 @font-face {
     font-family: "Lato-Regular"; /* Nome da fonte */
-    src: url("./afundo/fonts/Lato-Regular.ttf") format("opentype"); /* Caminho para o arquivo de fonte e formato */
+    src: url("./escolha/fonts/Lato-Regular.ttf") format("opentype"); /* Caminho para o arquivo de fonte e formato */
 }
 
 .outros {
