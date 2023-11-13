@@ -52,7 +52,7 @@ function redirecionarParaPesquisaQualificada() {
 
 function redirecionarParaCentralEletronica() {
   // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "central_eletronica.html"; 
+  window.location.href = "./escolha/flip-tree/index.html"; 
 }
 
 function redirecionarParaUsucapiao() {
