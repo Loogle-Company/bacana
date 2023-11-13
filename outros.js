@@ -40,7 +40,22 @@ document.querySelector("#buttonclose").addEventListener("click", closeMenu);
 
 // CERTIDAO DIGITAL
 
-function redirecionarParaConteudo() {
-  // Redirecionar para a página "conteudo.html"
-  window.location.href = "./escolha/index.html";
+function redirecionarParaCertidaoDigital() {
+  // Redirecionar para a página correspondente à Certidão Digital
+  window.location.href = "./flip-two/index.html";
+}
+
+function redirecionarParaPesquisaQualificada() {
+  // Redirecionar para a página correspondente à Pesquisa Qualificada
+  window.location.href = "./acesse/index.html";
+}
+
+function redirecionarParaCentralEletronica() {
+  // Redirecionar para a página correspondente à Central Eletrônica
+  window.location.href = "central_eletronica.html"; 
+}
+
+function redirecionarParaUsucapiao() {
+  // Redirecionar para a página correspondente à Usucapião
+  window.location.href = "/usucapiao.html";
 }
