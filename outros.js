@@ -42,12 +42,12 @@ document.querySelector("#buttonclose").addEventListener("click", closeMenu);
 
 function redirecionarParaCertidaoDigital() {
   // Redirecionar para a página correspondente à Certidão Digital
-  window.location.href = "./flip-two/index.html";
+  window.location.href = "./escolha/flip-two/index.html";
 }
 
 function redirecionarParaPesquisaQualificada() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./acesse/index.html";
+  window.location.href = "./escolha/index.html";
 }
 
 function redirecionarParaCentralEletronica() {
