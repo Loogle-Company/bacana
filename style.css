@@ -9,7 +9,7 @@
 }
 
 body {
-    height:auto;
+    height:100%;
     overflow-x:hidden;
     backgroud-color: #333; 
 }
