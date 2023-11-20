@@ -55,27 +55,40 @@ function redirecionarParaCentralEletronica() {
   window.location.href = "./escolha/flip-tree/index.html"; 
 }
 
-function redirecionarParaUsucapiao() {
+function redirecionarParaPesquisaPrévia() {
   // Redirecionar para a página correspondente à Usucapião
   window.location.href = "./escolha/flip-for/index.html";
 }
 
-function redirecionarParaCertidaoDigital() {
+function redirecionarParaAcompanhamnetoRegistral() {
   // Redirecionar para a página correspondente à Certidão Digital
   window.location.href = "./escolha/flip-two/index.html";
 }
 
-function redirecionarParaPesquisaQualificada() {
+function redirecionarParaAssinadorDigital() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
   window.location.href = "./escolha/index.html";
 }
 
-function redirecionarParaCentralEletronica() {
+function redirecionarParaCompradeCrédito() {
   // Redirecionar para a página correspondente à Central Eletrônica
   window.location.href = "./escolha/flip-tree/index.html"; 
 }
 
-function redirecionarParaUsucapiao() {
+function redirecionarParaintimaçõesConsolidação() {
   // Redirecionar para a página correspondente à Usucapião
   window.location.href = "./escolha/flip-for/index.html";
 }
+
+function redirecionarParaRepositórioConfiavél() {
+  // Redirecionar para a página correspondente à Pesquisa Qualificada
+  window.location.href = "./escolha/index.html";
+}
+
+function redirecionarParaUsucapiao() {
+  // Redirecionar para a página correspondente à Pesquisa Qualificada
+  window.location.href = "./escolha/index.html";
+}
+
+
+
