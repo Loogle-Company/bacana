@@ -10,7 +10,8 @@
 
 body {
     height:110%;
-    width:98.5%;
+    width:98.8%;
+    overflow:hidden;
 }
 
 .titulo {
