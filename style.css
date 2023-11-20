@@ -29,7 +29,7 @@ html, body {
   @font-face {
   
     font-family: "cebo"; /* Nome da fonte que você usará */
-    src: url("./escolha/fonts/cebo.ttf"); /* Substitua pelo caminho real do arquivo de fonte */
+    src: url("./escolha/fonts/Lato-Regular.ttf"); /* Substitua pelo caminho real do arquivo de fonte */
   
   }
   
