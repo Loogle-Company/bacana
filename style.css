@@ -141,7 +141,7 @@ html, body {
 .botoes {
   text-align: right; /* Alinha os botões à direita */
   position: absolute; /* Posiciona os botões de forma absoluta */
-  top: 406px; /* Coloca os botões no topo da página */
+  top: 410px; /* Coloca os botões no topo da página */
   right: 600px; /* Coloca os botões à direita da página */
 }
 
@@ -154,7 +154,7 @@ html, body {
   cursor: pointer;
   border-radius: 8px;
   padding: 10px 30px;
-  margin-bottom: 55px; /* Espaço entre os botões */
+  margin-bottom: 60px; /* Espaço entre os botões */
   display: block; /* Faz com que os botões ocupem toda a largura disponível */
   transition: transform 0.2s ease-in-out;
 }
