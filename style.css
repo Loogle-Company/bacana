@@ -9,7 +9,7 @@
 }
 
 body {
-    height:110%;
+    height:auto;
     overflow-x:hidden;
     backgroud-color: rgb(200, 200, 200); 
 }
