@@ -11,7 +11,7 @@
 body {
     height:110%;
     overflow-x:hidden;
-    backgroud-color: rgb(230, 230, 230); 
+    backgroud-color: rgb(200, 200, 200); 
 }
 
 .titulo {
@@ -267,7 +267,7 @@ p {
   
   .menu a {
     text-decoration: none;
-    color: #ffffff; /* Cor do texto do menu */
+    color: #333; /* Cor do texto do menu */
     font-weight: bold;
   }
   
@@ -355,7 +355,7 @@ p {
     font-weight: 100;
     font-size: 100px; /* Aumente o tamanho da fonte para 50px */
     text-decoration: none;
-    color: #ffffff;
+    color: #333;
   }
   
   .menu a:hover {
