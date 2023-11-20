@@ -10,7 +10,7 @@
 
 body {
     height:110%;
-    width:100%;
+    overflow-x:hidden;
 }
 
 .titulo {
