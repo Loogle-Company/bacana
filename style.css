@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     height:100%;
     overflow-x:hidden;
     backgroud-color: #333; 
