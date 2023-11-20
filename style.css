@@ -65,7 +65,7 @@ html, body {
 }
 .outros {
     background-color: #ffffff;
-    color: #ffffff;
+    color: #333;
     padding: 28px;
     display: flex;
     justify-content: space-between;
