@@ -92,7 +92,7 @@ html, body {
   
     width: 30px; /* Ajusta o tamanho das linhas */
     height: 1px; /* Altura das linhas */
-    background-color: rgb(255, 255, 255);
+    background-color: #333;
     margin: 5px 0; /* Espaçamento entre as linhas */
     text-align: right; /* Alinha o texto à esquerda */
   
