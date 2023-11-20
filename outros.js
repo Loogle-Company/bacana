@@ -57,5 +57,5 @@ function redirecionarParaCentralEletronica() {
 
 function redirecionarParaUsucapiao() {
   // Redirecionar para a página correspondente à Usucapião
-  window.location.href = "/usucapiao.html";
+  window.location.href = "./escolha/flip-for/index.html";
 }
