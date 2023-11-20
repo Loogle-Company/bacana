@@ -130,7 +130,7 @@ html, body {
     max-width: 800px; /* Define a largura máxima do conteúdo */
     padding: 100px;
     flex-direction: column; /* Alinha os elementos verticalmente */
-    margin-left:30%;
+    margin-left:20%;
 }
 
 
