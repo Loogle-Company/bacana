@@ -141,7 +141,7 @@ html, body {
 .botoes {
   text-align: right; /* Alinha os botões à direita */
   position: absolute; /* Posiciona os botões de forma absoluta */
-  top: 407px; /* Coloca os botões no topo da página */
+  top: 405px; /* Coloca os botões no topo da página */
   right: 600px; /* Coloca os botões à direita da página */
 }
 
