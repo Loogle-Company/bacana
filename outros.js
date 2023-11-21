@@ -50,11 +50,6 @@ function redirecionarParaPesquisaQualificada() {
   window.location.href = "./escolha/index.html";
 }
 
-function redirecionarParaCentralEletronica() {
-  // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "./escolha/flip-tree/index.html"; 
-}
-
 function redirecionarParaPesquisaPrévia() {
   // Redirecionar para a página correspondente à Usucapião
   window.location.href = "./escolha/flip-for/index.html";
@@ -75,9 +70,15 @@ function redirecionarParaCompradeCrédito() {
   window.location.href = "./escolha/flip-tree/index.html"; 
 }
 
+
 function redirecionarParaintimaçõesConsolidação() {
   // Redirecionar para a página correspondente à Usucapião
   window.location.href = "./escolha/flip-for/index.html";
+}
+
+function redirecionarParaMatriculaonline() {
+  // Redirecionar para a página correspondente à Central Eletrônica
+  window.location.href = "./escolha/flip-tree/index.html"; 
 }
 
 function redirecionarParaRepositórioConfiavél() {
@@ -89,7 +90,6 @@ function redirecionarParaUsucapiao() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
   window.location.href = "./escolha/index.html";
 }
-
 
 function redirecionarParaEprotocolo() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
