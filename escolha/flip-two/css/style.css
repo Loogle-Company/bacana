@@ -27,7 +27,7 @@ html, body {
 .rosto{
 
     display: flex;
-    top: 48%;
+    top: 40%;
     left:150px;
     color: white;
     position: fixed;
@@ -45,14 +45,14 @@ html, body {
 
     font-size: 40px;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 0;
     
 }
 
 .chamado{
     display: block;
-    top: 140px;
+    top: 120px;
     position: absolute;
     left: 50px;
     
