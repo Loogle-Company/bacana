@@ -138,36 +138,33 @@ html, body {
     margin-bottom: 20px; /* Adiciona espaço entre as opções */
 }
 
+.botoes {
+  text-align: right; /* Alinha os botões à direita */
+  position: absolute; /* Posiciona os botões de forma absoluta */
+  top: 390px; /* Coloca os botões no topo da página */
+  right: 600px; /* Coloca os botões à direita da página */
+}
+
 /* Estilização para os botões dentro da classe "botoes" */
 .botoes button {
-  font-family: "Lato-Regular";
+  font-family: "Lato-Regular"; /* Use a fonte personalizada */
   background-color: #d8c200;
-  color: #333;
+  color: #333; /* Cor do texto branca */
   border: none;
   cursor: pointer;
   border-radius: 8px;
   padding: 10px 30px;
-  margin-bottom: 60px;
-  display: block;
+  margin-bottom: 60px; /* Espaço entre os botões */
+  display: block; /* Faz com que os botões ocupem toda a largura disponível */
   transition: transform 0.2s ease-in-out;
 }
 
 /* Estilos para a animação de hover */
 .botoes button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  color: #fff; /* Altera a cor do texto ao passar o mouse */
+  transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
 }
 
-/* Estilização para os textos correspondentes aos botões */
-.opcao-container h3 {
-  color: #333; /* Cor padrão do texto */
-}
-
-/* Estilos para a animação de hover nos textos correspondentes */
-.botoes button:hover + .opcao-container h3 {
-  color: #d8c200; /* Altera a cor do texto ao passar o mouse sobre o botão */
-}
 
 /* Estilos para a animação de hover */
 .botoes button:hover {
