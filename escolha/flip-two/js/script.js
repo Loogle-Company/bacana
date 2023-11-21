@@ -26,11 +26,10 @@ buttons.forEach(function (button) {
 const toggleButton1 = document.getElementById("toggleButton1");
 const toggleButton2 = document.getElementById("toggleButton2");
 const toggleButton3 = document.getElementById("toggleButton3");
-const toggleButton1 = document.getElementById("toggleButton4");
 const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 
-const cards = [document.getElementById("card1"), document.getElementById("card2"), document.getElementById("card3"),  document.getElementById("card4")];
+const cards = [document.getElementById("card1"), document.getElementById("card2"), document.getElementById("card3")];
 let currentIndex = 0;
 
 toggleButton1.addEventListener("click", function () {
@@ -43,10 +42,6 @@ toggleButton2.addEventListener("click", function () {
 
 toggleButton3.addEventListener("click", function () {
     showCard(2);
-});
-
-toggleButton3.addEventListener("click", function () {
-    showCard(3);
 });
 
 prevButton.addEventListener("click", function () {
