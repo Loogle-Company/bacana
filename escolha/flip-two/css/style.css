@@ -53,7 +53,7 @@ html, body {
 
 .chamado{
     display: block;
-    top: 2px;
+    top:20px;
     position: absolute;
     left: 50px;
     
@@ -95,7 +95,7 @@ html, body {
   -webkit-user-select: none;
   touch-action: manipulation;
   justify-content: space-between;
-  margin: 20px;
+  margin: 40px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -108,7 +108,7 @@ html, body {
 
     display: flex;
     margin-bottom: 30px;
-    margin-top: 25%;
+    margin-top: 15%;
     margin-left: 37%;
     position: absolute;
     text-align: center;
