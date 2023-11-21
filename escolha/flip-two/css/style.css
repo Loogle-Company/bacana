@@ -277,7 +277,7 @@ iframe{
 
 
 
-.card::before, .card2::before,  .card3::before{
+.cardk::before, .card::before, .card2::before,  .card3::before{
     content: '';
     position: relative;
     top: 0;
