@@ -62,7 +62,7 @@ function redirecionarParaPesquisaPrévia() {
 
 function redirecionarParaAcompanhamnetoRegistral() {
   // Redirecionar para a página correspondente à Certidão Digital
-  window.location.href = "./escolha/flip-two/index.html";
+  window.location.href = "./escolha/segunda/index.html";
 }
 
 function redirecionarParaAssinadorDigital() {
