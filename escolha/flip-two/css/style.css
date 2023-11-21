@@ -304,6 +304,17 @@ iframe{
 }
 
 
+.cardk h3{
+
+    right: 80%;
+    font-size: 60px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 3;
+    top: 29%;
+    white-space: nowrap;
+}
 
 .card h3{
 
