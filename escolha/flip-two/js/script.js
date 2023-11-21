@@ -1,11 +1,8 @@
-// Função para inicializar o script quando o DOM estiver pronto
 document.addEventListener("DOMContentLoaded", function () {
     // Botões "Ler mais"
     const readButtons = document.querySelectorAll('.read_button');
-    readButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-            toggleCard(button);
-        });
+    readButtons.forEach((button) => {
+        button.addEventListener('click', () => toggleCard(button));
     });
 
     // Botões de alternância e navegação
@@ -15,19 +12,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const cards = document.querySelectorAll('.card');
     let currentIndex = 0;
 
+    // Adiciona eventos aos botões de alternância
     toggleButtons.forEach((button, index) => {
-        button.addEventListener("click", function () {
-            showCard(index);
-        });
+        button.addEventListener("click", () => showCard(index));
     });
 
-    prevButton.addEventListener("click", function () {
-        showCard((currentIndex - 1 + cards.length) % cards.length);
-    });
-
-    nextButton.addEventListener("click", function () {
-        showCard((currentIndex + 1) % cards.length);
-    });
+    // Adiciona eventos aos botões de navegação
+    prevButton.addEventListener("click", () => showCard((currentIndex - 1 + cards.length) % cards.length));
+    nextButton.addEventListener("click", () => showCard((currentIndex + 1) % cards.length));
 
     // Função para alternar a visibilidade do card e atualizar o texto do botão
     function toggleCard(button) {
@@ -46,3 +38,4 @@ document.addEventListener("DOMContentLoaded", function () {
         currentIndex = index;
     }
 });
+
