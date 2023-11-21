@@ -55,45 +55,45 @@ function redirecionarParaPesquisaPrévia() {
   window.location.href = "./escolha/flip-for/index.html";
 }
 
-function redirecionarParaAcompanhamnetoRegistral() {
+function redirecionarParaAcompanhamentoRegistral() {
   // Redirecionar para a página correspondente à Certidão Digital
   window.location.href = "./escolha/segunda/index.html";
 }
 
 function redirecionarParaAssinadorDigital() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escoindex.html";
+  window.location.href = "x.html";
 }
 
 function redirecionarParaCompradeCrédito() {
   // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "./escolha/flip-tree/index.html"; 
+  window.location.href = "#"; 
 }
 
 
 function redirecionarParaintimaçõesConsolidação() {
   // Redirecionar para a página correspondente à Usucapião
-  window.location.href = "./escolha/flip-for/index.html";
+  window.location.href = "#";
 }
 
 function redirecionarParaMatriculaonline() {
   // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "./escolha/flip-tree/index.html"; 
+  window.location.href = "#"; 
 }
 
 function redirecionarParaRepositórioConfiavél() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/index.html";
+  window.location.href = "#";
 }
 
 function redirecionarParaUsucapiao() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/index.html";
+  window.location.href = "#";
 }
 
 function redirecionarParaEprotocolo() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/index.html";
+  window.location.href = "#";
 }
 
 
