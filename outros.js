@@ -67,7 +67,7 @@ function redirecionarParaAcompanhamnetoRegistral() {
 
 function redirecionarParaAssinadorDigital() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/segunda/index.html";
+  window.location.href = "./escoindex.html";
 }
 
 function redirecionarParaCompradeCrédito() {
