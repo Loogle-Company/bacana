@@ -29,7 +29,7 @@ const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 
 const cards = [document.getElementById("card0"), const cards = [document.getElementById("card1"), document.getElementById("card2"), document.getElementById("card3")];
-let currentIndex = 0;
+let currentIndex = 1;
 
 toggleButton1.addEventListener("click", function () {
     showCard(0);
