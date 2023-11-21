@@ -22,7 +22,6 @@ buttons.forEach(function (button) {
 
 
 
-
 const toggleButton1 = document.getElementById("toggleButton1");
 const toggleButton2 = document.getElementById("toggleButton2");
 const toggleButton3 = document.getElementById("toggleButton3");
@@ -59,6 +58,5 @@ function showCard(index) {
         card.style.display = i === index ? "flex" : "none";
     });
     currentIndex = index;
-}  }
-});
+}
 
