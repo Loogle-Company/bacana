@@ -199,7 +199,7 @@ iframe{
     display: flex;
     flex-direction: column;
     margin: 40px;
-    max-width: 350px;
+    max-width: 360px;
     padding: 17px;
     text-align: justify;
     box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.766);
@@ -208,7 +208,7 @@ iframe{
     background-color: #41414165;
     right: 20%;
     position: absolute;
-    top: 10%;
+    top: 7%;
     backdrop-filter: blur(15px);
     z-index: 2;
     
@@ -292,7 +292,7 @@ iframe{
     height: 200px;
     overflow: hidden;
     position: relative;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .content::before {
