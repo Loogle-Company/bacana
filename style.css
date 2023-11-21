@@ -180,7 +180,7 @@ html, body {
 
 /* Estilo para o título h1 dentro da classe "objeto" */
 .objeto h1 {
-    font-size: 28px;
+    font-size: 30px;
     font-family: "Lato-Regular"; /* Use a fonte personalizada */
     color: #3d3d3d; /* Cor do texto */
     margin-bottom: 30px; /* Espaço abaixo do h1 */
@@ -190,7 +190,7 @@ html, body {
 
 /* Estilo para o subtítulo h2 dentro da classe "objeto" */
 .objeto h2 {
-    font-size: 22px; /* Tamanho da fonte para h2 */
+    font-size: 24px; /* Tamanho da fonte para h2 */
     font-family: "Lato-Regular"; /* Use a fonte personalizada */
     color: #858484; /* Cor do texto */
     margin-bottom: 10px; /* Espaço abaixo do h2 */
