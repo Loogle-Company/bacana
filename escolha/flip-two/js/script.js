@@ -1,41 +1,63 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Botões "Ler mais"
-    const readButtons = document.querySelectorAll('.read_button');
-    readButtons.forEach((button) => {
-        button.addEventListener('click', () => toggleCard(button));
-    });
+// Selecione todos os botões "Ler mais"
+var buttons = document.querySelectorAll('.read_button');
 
-    // Botões de alternância e navegação
-    const toggleButtons = document.querySelectorAll('.toggle_button');
-    const prevButton = document.getElementById("prevButton");
-    const nextButton = document.getElementById("nextButton");
-    const cards = document.querySelectorAll('.card');
-    let currentIndex = 0;
+// Adicione um evento de clique a cada botão
+buttons.forEach(function (button) {
+    button.addEventListener('click', function () {
+        // Selecione o card associado ao botão
+        var card = button.parentElement;
 
-    // Adiciona eventos aos botões de alternância
-    toggleButtons.forEach((button, index) => {
-        button.addEventListener("click", () => showCard(index));
-    });
+        // Adicione/Remova a classe "active1"
+        card.classList.toggle('active');
 
-    // Adiciona eventos aos botões de navegação
-    prevButton.addEventListener("click", () => showCard((currentIndex - 1 + cards.length) % cards.length));
-    nextButton.addEventListener("click", () => showCard((currentIndex + 1) % cards.length));
-
-    // Função para alternar a visibilidade do card e atualizar o texto do botão
-    function toggleCard(button) {
-        const card = button.closest('.card');
-        if (card) {
-            card.classList.toggle('active');
-            button.textContent = card.classList.contains('active') ? 'Ler menos' : 'Ler mais';
+        if (card.classList.contains('active')) {
+            // Altere o texto do botão se ele tiver a classe "active1"
+            button.textContent = 'Ler menos';
+        } else {
+            // Altere o texto do botão se ele não tiver a classe "active1"
+            button.textContent = 'Ler mais';
         }
-    }
+    });
+});
 
-    // Função para exibir um determinado card e ocultar os outros
-    function showCard(index) {
-        cards.forEach((card, i) => {
-            card.style.display = i === index ? "flex" : "none";
-        });
-        currentIndex = index;
-    }
+
+
+const toggleButton1 = document.getElementById("toggleButton1");
+const toggleButton2 = document.getElementById("toggleButton2");
+const toggleButton3 = document.getElementById("toggleButton3");
+const prevButton = document.getElementById("prevButton");
+const nextButton = document.getElementById("nextButton");
+
+const cards = [document.getElementById("card1"), document.getElementById("card2"), document.getElementById("card3")];
+let currentIndex = 0;
+
+toggleButton1.addEventListener("click", function () {
+    showCard(0);
+});
+
+toggleButton2.addEventListener("click", function () {
+    showCard(1);
+});
+
+toggleButton3.addEventListener("click", function () {
+    showCard(2);
+});
+
+prevButton.addEventListener("click", function () {
+    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+    showCard(currentIndex);
+});
+
+nextButton.addEventListener("click", function () {
+    currentIndex = (currentIndex + 1) % cards.length;
+    showCard(currentIndex);
+});
+
+function showCard(index) {
+    cards.forEach((card, i) => {
+        card.style.display = i === index ? "flex" : "none";
+    });
+    currentIndex = index;
+}  }
 });
 
