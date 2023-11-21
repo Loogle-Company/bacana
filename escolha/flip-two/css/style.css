@@ -381,11 +381,11 @@ iframe{
 }
 
 /** Active **/
-.card.active .content, .card2.active .content, .card3.active .content {
+.cardk.active .content, .card.active .content, .card2.active .content, .card3.active .content {
     height: auto;
 }
 
-.card.active .content::before, .card2.active .content::before,  .card3.active .content::before {
+.cardk.active .content::before, .card.active .content::before, .card2.active .content::before,  .card3.active .content::before {
     visibility: hidden;
 }
 
