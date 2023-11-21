@@ -208,7 +208,7 @@ iframe{
     background-color: #41414165;
     right: 20%;
     position: absolute;
-    top: 16%;
+    top: 10%;
     backdrop-filter: blur(15px);
     z-index: 2;
     
