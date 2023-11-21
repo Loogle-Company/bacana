@@ -194,7 +194,7 @@ iframe{
 }
 
 /** Card **/
-.cardk {
+.card1 {
     display: flex;
     flex-direction: column;
     margin: 40px;
@@ -214,7 +214,7 @@ iframe{
 }
 
 /** Card **/
-.card {
+.card2 {
     display: none;
     flex-direction: column;
     margin: 40px;
@@ -234,7 +234,7 @@ iframe{
 }
 
 /** Card **/
-.card2{
+.card3{
     display: none;
     flex-direction: column;
     margin: 40px;
@@ -255,7 +255,7 @@ iframe{
 
 
 /** Card **/
-.card3 {
+.card4{
     display: none;
     flex-direction: column;
     margin: 40px;
@@ -277,7 +277,7 @@ iframe{
 
 
 
-.cardk::before, .card::before, .card2::before,  .card3::before{
+.card1::before, .card2::before, .card3::before,  .card4::before{
     content: '';
     position: relative;
     top: 0;
@@ -304,19 +304,7 @@ iframe{
 }
 
 
-.cardk h3{
-
-    right: 80%;
-    font-size: 60px;
-    position: absolute;
-    color: rgb(255, 255, 255);
-    display: flex;
-    z-index: 3;
-    top: 29%;
-    white-space: nowrap;
-}
-
-.card h3{
+.card1 h3{
 
     right: 80%;
     font-size: 60px;
@@ -330,7 +318,7 @@ iframe{
 
 .card2 h3{
 
-    right: 76%;
+    right: 80%;
     font-size: 60px;
     position: absolute;
     color: rgb(255, 255, 255);
@@ -341,6 +329,18 @@ iframe{
 }
 
 .card3 h3{
+
+    right: 76%;
+    font-size: 60px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 3;
+    top: 29%;
+    white-space: nowrap;
+}
+
+.card4 h3{
 
     right: 76%;
     font-size: 60px;
@@ -392,11 +392,11 @@ iframe{
 }
 
 /** Active **/
-.cardk.active .content, .card.active .content, .card2.active .content, .card3.active .content {
+.card1.active .content, .card4.active .content, .card2.active .content, .card3.active .content {
     height: auto;
 }
 
-.cardk.active .content::before, .card.active .content::before, .card2.active .content::before,  .card3.active .content::before {
+.card2.active .content::before, .card4.active .content::before, .card2.active .content::before,  .card3.active .content::before {
     visibility: hidden;
 }
 
@@ -419,7 +419,7 @@ iframe{
         margin-top: 30%;
     }
 
-    .cardk, .card, .card2, .card3{
+    .card1, .card4, .card2, .card3{
         max-width: 300px;
         right: 10%;
 
