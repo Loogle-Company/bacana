@@ -105,7 +105,7 @@ html, body {
 
 /* Estilo para permitir tela cheia */
 .icon iframe:fullscreen {
-    width: 100vw;
+    width: 100vh;
     height: 100vh;
 }
 
