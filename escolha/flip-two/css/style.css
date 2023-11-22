@@ -103,17 +103,6 @@ html, body {
   
 }
 
-/* Estilo para permitir tela cheia */
-.icon iframe:fullscreen {
-    width: 100vh;
-    height: 100vh;
-}
-
-.icon {
-    position: relative;
-    padding-bottom: 56.25%;  /* Proporção 16:9 para o iframe */
-    overflow: hidden;
-}
 
 .carros{
 
