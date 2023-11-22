@@ -27,8 +27,8 @@ html, body {
 .rosto{
 
     display: flex;
-    top: 45%;
-    left:150px;
+    top: 40%;
+    left:130px;
     color: white;
     position: fixed;
     z-index: 999;
