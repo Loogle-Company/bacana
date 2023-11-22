@@ -535,7 +535,7 @@ iframe {
     
 }
 
-.card::before, .card2::before,  .card3::before,  .card4::before, .card5::before, .card6::before,  .card7::before,  .card8::before, .card9::before, .card10::before,  .card11::before,  .card12::before, .card13::before, .card14::before,  .card15::before,  .card16::before {
+.card::before, .card2::before,  .card3::before,  .card4::before, .card5::before, .card6::before,  .card7::before,  .card8::before, .card9::before, .card10::before,  .card11::before,  .card12::before, .card13::before, .card14::before,  .card15::before,  .card16::before, .card17::before {
     content: '';
     position: relative;
     top: 0;
@@ -755,7 +755,17 @@ iframe {
     white-space: nowrap;
 }
 
+.card17 h3{
 
+    right: 76%;
+    font-size: 60px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 3;
+    top: 29%;
+    white-space: nowrap;
+}
 
 .content p{
     color: #ffffff;
@@ -796,11 +806,11 @@ iframe {
 }
 
 /** Active **/
-.card.active .content, .card2.active .content, .card3.active .content, .card4.active .content, .card5.active .content, .card6.active .content, .card7.active .content, .card8.active .content, .card9.active .content, .card10.active .content, .card11.active .content, .card12.active .content, .card13.active .content, .card14.active .content, .card15.active .content, .card16.active .content     {
+.card.active .content, .card2.active .content, .card3.active .content, .card4.active .content, .card5.active .content, .card6.active .content, .card7.active .content, .card8.active .content, .card9.active .content, .card10.active .content, .card11.active .content, .card12.active .content, .card13.active .content, .card14.active .content, .card15.active .content, .card16.active .content, .card17.active .content     {
     height: auto;
 }
 
-.card.active .content::before, .card2.active .content::before,  .card3.active .content::before, .card4.active .content::before, .card5.active .content::before, .card6.active .content::before,  .card7.active .content::before, .card8.active .content::before, .card9.active .content::before, .card10.active .content::before,  .card11.active .content::before, .card12.active .content::before, .card13.active .content::before, .card14.active .content::before,  .card15.active .content::before, .card16.active .content::before {
+.card.active .content::before, .card2.active .content::before,  .card3.active .content::before, .card4.active .content::before, .card5.active .content::before, .card6.active .content::before,  .card7.active .content::before, .card8.active .content::before, .card9.active .content::before, .card10.active .content::before,  .card11.active .content::before, .card12.active .content::before, .card13.active .content::before, .card14.active .content::before,  .card15.active .content::before, .card16.active .content::before, .card17.active .content::before {
     visibility: hidden;
 }
 
