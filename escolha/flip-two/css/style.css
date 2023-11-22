@@ -780,10 +780,9 @@ iframe {
 .content p{
     color: #ffffff;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     line-height: 33px;
     
-   
 }
 
 .content li{
