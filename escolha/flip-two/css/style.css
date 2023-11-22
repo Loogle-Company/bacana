@@ -562,7 +562,16 @@ iframe {
     
 }
 
+/* Adicione este trecho ao seu CSS para estilizar a numeração da lista */
+.content ol {
+    list-style-type: decimal; /* Define o tipo de marcador da lista como numérico (1, 2, 3, ...) */
+    padding-left: 20px; /* Adiciona um recuo à esquerda para acomodar os marcadores */
+}
 
+/* Se desejar estilizar a lista inteira, incluindo os itens da lista, você pode adicionar o seguinte estilo */
+.content li {
+    margin-bottom: 10px; /* Adiciona espaçamento entre os itens da lista */
+}
 
 .card h3{
 
