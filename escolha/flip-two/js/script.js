@@ -39,13 +39,6 @@ toggleButton2.addEventListener("click", function () {
     showCard(1);
 });
 
-toggleButton3.addEventListener("click", function () {
-    showCard(2);
-});
-    
-toggleButton8.addEventListener("click", function () {
-
-
     
 prevButton.addEventListener("click", function () {
     currentIndex = (currentIndex - 1 + cards.length) % cards.length;
