@@ -203,7 +203,7 @@ iframe {
     display: flex;
     flex-direction: column;
     margin: 40px;
-    max-width: 400px;
+    max-width: 500px;
     padding: 17px;
     text-align: justify;
     box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.766);
