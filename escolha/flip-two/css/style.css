@@ -18,7 +18,7 @@ html, body {
 
 .linha-fina {
     width: 1px;
-    height: 150px; /* Ajuste a altura conforme necessário */
+    height: 50px; /* Ajuste a altura conforme necessário */
     background-color: #000; /* Cor da linha vertical */
     margin: 0 auto; /* Centraliza a linha no contêiner */
 }
