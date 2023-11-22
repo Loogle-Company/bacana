@@ -27,7 +27,7 @@ html, body {
 .rosto{
 
     display: flex;
-    top: 50%;
+    top: 48%;
     left:150px;
     color: white;
     position: fixed;
@@ -108,7 +108,7 @@ html, body {
 
     display: flex;
     margin-bottom: 30px;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 37%;
     position: absolute;
     text-align: center;
