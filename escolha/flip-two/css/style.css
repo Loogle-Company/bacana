@@ -535,7 +535,7 @@ iframe {
     
 }
 
-.card::before, .card2::before,  .card3::before,  .card4::before{
+.card::before, .card2::before,  .card3::before,  .card4::before, .card5::before, .card6::before,  .card7::before,  .card8::before, .card9::before, .card10::before,  .card11::before,  .card12::before, .card13::before, .card14::before,  .card15::before,  .card16::before {
     content: '';
     position: relative;
     top: 0;
