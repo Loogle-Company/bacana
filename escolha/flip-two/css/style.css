@@ -228,6 +228,23 @@ iframe {
 }
 
 
+ /** Content **/
+.content {
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    font-size: 23px;
+}
+
+.content::before {
+    content: '';
+    position: relative;
+    bottom: 0;
+    width: 150%;
+    height: 150px;
+    
+}
+
 /* Adicione isso ao seu arquivo style.css ou ao local apropriado no seu CSS */
 
 .card2 .content {
@@ -245,7 +262,21 @@ iframe {
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
 }
 
-.card2 h3 {
+
+.card h3{
+
+    right: 80%;
+    font-size: 60px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    display: flex;
+    z-index: 3;
+    top: 29%;
+    white-space: nowrap;
+}
+
+.card2 h3{
+
     right: 76%;
     font-size: 60px;
     position: absolute;
@@ -256,16 +287,21 @@ iframe {
     white-space: nowrap;
 }
 
-.card2 .content p {
+
+.content p{
     color: #ffffff;
+    align-items: center;
+    justify-content: start;
     line-height: 33px;
+    
 }
 
-.card2 .content li {
+.content li{
     color: #ffffff;
 }
 
-.card2 .content ol {
+
+.content ol{
     color: #ffffff;
 }
 
