@@ -245,6 +245,18 @@ iframe {
     
 }
 
+/* Adicione isso ao seu arquivo style.css ou ao local apropriado no seu CSS */
+
+.card2 .content ol {
+    list-style-type: decimal; /* Tipo de marcador (1, 2, 3, ...) */
+    margin-left: 20px; /* Margem à esquerda para recuo dos itens */
+}
+
+.card2 .content ol li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+
 .card h3{
 
     right: 80%;
