@@ -233,6 +233,7 @@ iframe {
     height: 230px;
     position: relative;
     font-size: 23px;
+    overflow-y:hidden;
 }
 
 .content::before {
