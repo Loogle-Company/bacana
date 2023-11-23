@@ -247,9 +247,10 @@ iframe {
 
 /* Adicione isso ao seu arquivo style.css ou ao local apropriado no seu CSS */
 
-.card2 .content {
-    text-align: justify; /* Justificar o texto */
-    line-height: 1.5; /* Espaçamento entre as linhas */
+.card2 .content li{
+    text-align: justify;
+    line-height: 1.5;
+    word-wrap: break-word; /* Adiciona quebra de palavra */
 }
 
 .card2 .content ol {
