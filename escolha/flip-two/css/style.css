@@ -293,7 +293,8 @@ iframe {
     align-items: center;
     justify-content: start;
     line-height: 33px;
-    
+    white-space: wrap;
+
 }
 
 .content li{
