@@ -13,12 +13,12 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 130vh;
-    background-color: rgba(103, 81, 49, 0.605);
+    background-color: rgba(103, 81, 49, 0.417);
 }
 
 .linha-fina {
     width: 1px;
-    height: 300px; /* Ajuste a altura conforme necessário */
+    height: 50px; /* Ajuste a altura conforme necessário */
     background-color: #000; /* Cor da linha vertical */
     margin: 0 auto; /* Centraliza a linha no contêiner */
 }
@@ -27,8 +27,8 @@ html, body {
 .rosto{
 
     display: flex;
-    top: 48%;
-    left:150px;
+    top: 40%;
+    left:130px;
     color: white;
     position: fixed;
     z-index: 999;
@@ -37,24 +37,26 @@ html, body {
 
 .rosto h1{
 
-    font-size: 50px;
+    font-size: 90px;
+    margin-botton:50px;
     
 }
 
 .rosto p{
 
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
-    top: 60px;
-    left: 0;
+    top: 100px;
+    left: 2px;
     
 }
 
 .chamado{
     display: block;
-    top: 140px;
+    top:20px;
     position: absolute;
     left: 50px;
+    display:none;
     
 }
 
@@ -76,8 +78,8 @@ html, body {
 /* CSS */
 .button-86, .button-85{
   all: unset;
-  width: 100px;
-  height: 30px;
+  width: 130px;
+  height: 40px;
   font-size: 16px;
   background: transparent;
   border: none;
@@ -94,7 +96,7 @@ html, body {
   -webkit-user-select: none;
   touch-action: manipulation;
   justify-content: space-between;
-  margin: 55px;
+  margin: 40px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -108,7 +110,7 @@ html, body {
     display: flex;
     margin-bottom: 30px;
     margin-top: 25%;
-    margin-left: 37%;
+    margin-left: 35%;
     position: absolute;
     text-align: center;
     justify-content: center;
@@ -166,31 +168,14 @@ html, body {
 }
 
 
-/* Add styles to the video container */
-.vid {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+iframe {
     
-}
-
-/* Style the video itself */
-.vid img {
-    object-fit: cover; /* Cover the entire container */
-    width: 100%;
-    height: 100%;
-
-}
-
-
-iframe{
     border-radius: 5px;
-    width: 313px;
-    height: 250px;
+    width: 100%;
+    height: 270px;
     align-items: center;
     margin-bottom: 40px;
+    
 }
 
 /** Card **/
@@ -198,7 +183,7 @@ iframe{
     display: flex;
     flex-direction: column;
     margin: 40px;
-    max-width: 350px;
+    max-width: 400px;
     padding: 17px;
     text-align: justify;
     box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.766);
@@ -207,18 +192,18 @@ iframe{
     background-color: #41414165;
     right: 20%;
     position: absolute;
-    top: 16%;
+    top: 7%;
     backdrop-filter: blur(15px);
     z-index: 2;
     
 }
 
 /** Card **/
-.card2{
+.card2 {
     display: none;
     flex-direction: column;
     margin: 40px;
-    max-width: 350px;
+    max-width: 400px;
     padding: 17px;
     text-align: justify;
     box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.766);
@@ -227,37 +212,14 @@ iframe{
     background-color: #41414165;
     right: 20%;
     position: absolute;
-    top: 16%;
+    top: 7%;
     backdrop-filter: blur(15px);
     z-index: 2;
     
 }
 
 
-/** Card **/
-.card3 {
-    display: none;
-    flex-direction: column;
-    margin: 40px;
-    max-width: 350px;
-    padding: 17px;
-    text-align: justify;
-    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.766);
-    border-radius: 15px;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: #41414165;
-    right: 20%;
-    position: absolute;
-    top: 16%;
-    backdrop-filter: blur(15px);
-    z-index: 2;
-    
-}
-
-
-
-
-.card::before, .card2::before,  .card3::before{
+.card::before, .card2::before {
     content: '';
     position: relative;
     top: 0;
@@ -266,12 +228,12 @@ iframe{
 }
 
 
-/** Content **/
+ /** Content **/
 .content {
-    height: 200px;
-    overflow: hidden;
+    height: 230px;
     position: relative;
-    
+    font-size: 23px;
+    overflow-y:hidden;
 }
 
 .content::before {
@@ -283,6 +245,23 @@ iframe{
     
 }
 
+/* Adicione isso ao seu arquivo style.css ou ao local apropriado no seu CSS */
+
+.card2 .content li{
+    text-align: justify;
+    line-height: 1.5;
+    word-wrap: break-word; /* Adiciona quebra de palavra */
+}
+
+.card2 .content ol {
+    list-style-type: decimal; /* Tipo de marcador (1, 2, 3, ...) */
+    margin-left: 20px; /* Margem à esquerda para recuo dos itens */
+    padding-left: 10px; /* Adicionar um recuo interno à lista */
+}
+
+.card2 .content ol li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
 
 
 .card h3{
@@ -309,26 +288,14 @@ iframe{
     white-space: nowrap;
 }
 
-.card3 h3{
-
-    right: 76%;
-    font-size: 60px;
-    position: absolute;
-    color: rgb(255, 255, 255);
-    display: flex;
-    z-index: 3;
-    top: 29%;
-    white-space: nowrap;
-}
-
 
 .content p{
     color: #ffffff;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     line-height: 33px;
-    
-   
+    white-space: wrap;
+
 }
 
 .content li{
@@ -339,6 +306,7 @@ iframe{
 .content ol{
     color: #ffffff;
 }
+
 
 /** Read More/Less Button **/
 .read_button{
@@ -361,11 +329,11 @@ iframe{
 }
 
 /** Active **/
-.card.active .content, .card2.active .content, .card3.active .content {
+.card.active .content, .card2.active .content   {
     height: auto;
 }
 
-.card.active .content::before, .card2.active .content::before,  .card3.active .content::before {
+.card.active .content::before, .card2.active .content::before {
     visibility: hidden;
 }
 
