@@ -41,7 +41,7 @@ document.querySelector("#buttonclose").addEventListener("click", closeMenu);
 // CERTIDAO DIGITAL
 function redirecionarParaEprotocolo() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "#";
+  window.location.href = "./escolha/flip-tree/index.html";
 }
 
 function redirecionarParaCertidaoDigital() {
