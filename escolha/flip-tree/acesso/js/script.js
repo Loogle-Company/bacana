@@ -24,7 +24,6 @@ buttons.forEach(function (button) {
 
 const toggleButton1 = document.getElementById("toggleButton1");
 const toggleButton2 = document.getElementById("toggleButton2");
-const toggleButton3 = document.getElementById("toggleButton3");
 const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 
@@ -37,10 +36,6 @@ toggleButton1.addEventListener("click", function () {
 
 toggleButton2.addEventListener("click", function () {
     showCard(1);
-});
-
-toggleButton3.addEventListener("click", function () {
-    showCard(2);
 });
 
 prevButton.addEventListener("click", function () {
