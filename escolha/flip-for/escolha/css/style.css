@@ -1,4 +1,4 @@
-ort url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
 /** General **/
 * {
@@ -37,7 +37,7 @@ html, body {
 
 .rosto h1{
 
-    font-size: 80px;
+    font-size: 90px;
     margin-botton:50px;
     
 }
