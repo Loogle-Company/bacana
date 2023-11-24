@@ -39,6 +39,10 @@ document.querySelector("#buttonclose").addEventListener("click", closeMenu);
 
 
 // CERTIDAO DIGITAL
+function redirecionarParaEprotocolo() {
+  // Redirecionar para a página correspondente à Pesquisa Qualificada
+  window.location.href = "#";
+}
 
 function redirecionarParaCertidaoDigital() {
   // Redirecionar para a página correspondente à Certidão Digital
@@ -91,9 +95,6 @@ function redirecionarParaUsucapiao() {
   window.location.href = "#";
 }
 
-function redirecionarParaEprotocolo() {
-  // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "#";
-}
+
 
 
