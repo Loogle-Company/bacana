@@ -71,7 +71,7 @@ function redirecionarParaAssinadorDigital() {
 
 function redirecionarParaCompradeCrédito() {
   // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "#"; 
+  window.location.href = "./escolha/flip-six/index.html"; 
 }
 
 
