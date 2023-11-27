@@ -66,7 +66,7 @@ function redirecionarParaAcompanhamentoRegistral() {
 
 function redirecionarParaAssinadorDigital() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "x.html";
+  window.location.href = "./escolha/flip-five/index.html";
 }
 
 function redirecionarParaCompradeCrédito() {
