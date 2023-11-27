@@ -77,7 +77,7 @@ function redirecionarParaCompradeCrédito() {
 
 function redirecionarParaintimaçõesConsolidação() {
   // Redirecionar para a página correspondente à Usucapião
-  window.location.href = "#";
+  window.location.href = "./escolha/flip-seven/index.html";
 }
 
 function redirecionarParaMatriculaonline() {
