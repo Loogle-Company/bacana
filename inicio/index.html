@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartório de Imóveis-Campo Largo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- TELA DE CARREGAMENTO -->
+    <div class="loading-screen">
+        <p class="mary">1º SERVIÇO DE REGISTRO DE IMÓVEIS DE CAMPO LARGO</p>
+        <div class="progress-bar"></div>
+    </div>
+
+    <div class="conteudo">
+        <!-- PÁGINA PRINCIPAL -->
+        <header class="inicio">
+            <div class="logo">
+                <img src="/entre/oceano/afundo/imagens/logo.png" alt="logo">
+            </div>
+            <div class="title">
+                <h1>Registro de Imóveis</h1>
+                <h2>Campo Largo</h2>
+            </div>
+            <div class="buttonstart" onclick="openMenu()">
+                ACESSAR INFORMAÇÕES
+            </div>
+        </header>
+    
+        <div class="container">
+            <div class="perfeito">
+                <h5>Transformando sonhos em  propriedades <br> legalmente seguras</h5>
+            </div>
+            <div  class="botoes">
+                <button id="botaoEndereco">QUERO IR PRESENCIALMENTE</button>
+            </div>
+        </div>
+    </div>
+    <div class="scrollable">
+        <!-- Seu conteúdo aqui -->
+        <div class="square">
+            <div class="horizontal-line"></div>
+            <div class="vertical-line"></div>
+            <div class="sub-square">
+                <img src="./oceano/afundo/imagens/equilibrio.png" alt="Equilíbrio">
+                <h3 class="title">Valores</h3>
+                <p class="description">Ética na execução dos serviços; Transparência nas ações; Comprometimento com a satisfação dos usuários.</p>
+            </div>
+            <div class="sub-square">
+                <img src="./oceano/afundo/imagens/casa.png" alt="Descrição da Imagem">
+                <h3 class="title">Missão</h3>
+                <p class="description">Prestar serviços de registro de imóveis com agilidade e segurança jurídica, contribuindo com a satisfação dos usuários.</p>
+            </div>
+            <div class="bottom-sub-squares">
+                <div class="sub-square">
+                    <img src="./oceano/afundo/imagens/realidade-virtual.png" alt="Realidade Virtual">
+                    <h3 class="title">Propósito</h3>
+                    <p class="description">Ser reconhecido na sociedade pela excelência nos serviços prestados.</p>
+                </div>
+                <div class="sub-square">
+                    <img src="./oceano/afundo/imagens/tech.png" alt="tech">
+                    <h3 class="title">Tecnologia</h3>
+                    <p class="description">Automação de Processos; Análise de Dados; Atendimento Online;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<div class="casa">
+    <img src="/entre/oceano/afundo/imagens/teste (1).png" alt="tesk">
+</div>
+
+
+    <!-- Menu -->
+    <div class="menu" id="menu">
+        <div class="closertitle">
+            <h2>Registro de Imóveis</h2>
+        </div>
+        <div class="guias" id="outros">
+            <a href="index.html"><h4>início</h4></a>
+            <a href="duvidas.html"><h4>dúvidas</h4></a>
+            <a href="sobre.html"><h4>sobre</h4></a>
+            <a href="./oceano/index.html"><h4>outros</h4></a>
+        </div>
+        <div id="buttonclose" onclick="closeMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <!-- Fim do menu -->
+
+    <div id="endereco">
+        <footer class="rodape" id="contato">
+            <div class="rodape-div">
+                <div class="rodape-div-1">
+                    <div class="rodape-div-1-coluna">
+                        <span><b>ENDEREÇO</b></span>
+                        <p>Avenida Desembargador Clotário Portugal, 421 - CEP: 83601-320 <br>
+                            Campo Largo - PR</p>
+                    </div>
+                </div>
+                <div class="rodape-div-2">
+                    <div class="rodape-div-2-coluna">
+                        <span><b>HORÁRIO DE ATENDIMENTO</b></span>
+                        <p>Segunda a sexta 08:30 às 11:00 e 13:00 às 17:00</p>
+                    </div>
+                </div>
+                <div class="rodape-div-3">
+                    <div class="rodape-div-3-coluna">
+                        <span><b>CONTATO</b></span>
+                        <p>atendimento@cartoriocampolargo.com.br <br>
+                            (41) 3032-2675</p>
+                    </div>
+                </div>
+                <p class="rodapedireitos">Serviço de Registro de Imóveis de Campo Largo - 2023 - Todos os direitos reservados </p>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="inicio.js"></script>
+</body>
+</html>

@@ -1,0 +1,719 @@
+
+/* TELA DE CARREGAMENTO */
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3a3a3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 1;
+  transform-origin: top center;
+  transform: scaleY(1);
+  transition: transform 1s ease-in-out;
+}
+
+.loading-content {
+  display: flex;
+  align-items: center;  
+}
+
+.loading-screen.hidden {
+  transform: scaleY(0);
+}
+
+.loading-screen p {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+/* BARRA */
+
+.progress-bar {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform-origin: center;
+}
+
+.loading-screen.active .progress-bar {
+  animation: expand 3s linear; /* Animação para expandir a barra de carregamento */
+}
+
+@keyframes expand {
+  0%, 100% {
+    transform: scaleX(1); /* Nos extremos da animação, a largura está totalmente fechada */
+  }
+  50% {
+    transform: scaleX(0); /* No meio da animação, a largura está totalmente aberta */
+  }
+}
+
+
+.perfeito {
+  position: fixed;
+  color: #333;
+  margin-left: 100px;
+  top: 0px; /* O elemento fica "preso" a 80px do topo da janela. */
+  transition: top 1s ease; /* Adiciona uma transição suave para a propriedade 'top'. */
+}
+
+.container.hidden {
+  display: none; /* Esconde o elemento com a classe 'container'. */
+}
+
+.imperfeito {
+  position: sticky;
+  color: #333;
+  margin-left: 1000px;
+  top: 800px; /* O elemento fica "preso" a 200px do topo da janela. */
+}
+
+
+
+
+@font-face {
+  font-family: 'GeosansLight'; /* Dê um nome à sua fonte */
+  src: url('/entre/oceano/afundo/fonts/GeosansLight.ttf') format('woff2'),
+       url('/entre/oceano/afundo/fonts/GeosansLight.ttf') format('woff');
+  /* Inclua todos os formatos que você tem disponíveis */
+}
+
+h5 {
+  font-family: 'Segoe UI Black';
+  font-size: 40px;
+  margin-top: 350px;
+  margin-bottom: 40px;
+}
+
+
+p {
+
+  font-family: 'Rubik';
+  font-size: 17px;
+
+}
+
+
+body, html {
+ 
+    height: 105%; 
+    width: 100%;
+    margin: 0; /* Remova a margem padrão do corpo */
+    padding: 0; /* Remova o padding padrão do corpo */
+
+  }
+
+
+
+  .inicio {
+    background:  #333; /* Gradiente de branco para laranja */
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed; /* Torna o cabeçalho fixo na parte superior */
+    top: 0px;
+    left: 0px;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+
+.buttonstart {
+  border: 2px solid #d8c200; /* Define a borda vermelha */
+  border-radius: 20px; /* Define o raio da borda para torná-la redonda */
+  cursor: pointer; /* Transforma o cursor em uma mão ao passar o mouse */
+  margin-left: 1250px; /* Adiciona margem à direita do botão */
+  margin-top: 5px; /* Aumenta a margem superior */
+  width: 153px; /* Defina a largura desejada */
+  height: 35px; /* Defina a altura desejada */
+  font-family: "Segoe UI Black"; /* Use a fonte personalizada com alternativa genérica */
+  font-size: 11px;
+  text-align: center; /* Centraliza horizontalmente o texto */
+  line-height: 31.5px; /* Centraliza verticalmente o texto */
+  background: linear-gradient(to bottom, #333 0%, #333 100%); /* Gradiente de cores para o botão */
+  color: #d8c200; /* Cor do texto */
+  transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave ao efeito de elevação */
+}
+
+
+.buttonstart:hover {
+  transform: translateY(-10px); /* Move o botão 5 pixels para cima no hover */
+}
+
+
+.buttonstart .line {
+
+  width: 30px; /* Ajusta o tamanho das linhas */
+  height: 1px; /* Altura das linhas */
+  background-color: rgb(255, 255, 255);
+  margin: 5px 0; /* Espaçamento entre as linhas */
+  text-align: right; /* Alinha o texto à esquerda */
+
+}
+
+
+.buttonstart:focus {
+
+  outline: none; /* Remove a borda de foco ao clicar no botão */
+
+}
+
+
+.title {
+  font-size: 18px;
+  margin-left: 25px; /* Remove a margem esquerda */
+  margin-right: 0; /* Remove a margem direita */
+  font-family: "GeosansLight";
+  margin-top: 1px;
+}
+
+
+@media (max-width: 1440px) {
+
+
+  .title {
+
+    font-size: 11px;
+    margin-left: 25px; /* Remove a margem esquerda */
+    margin-right: 0; /* Remove a margem direita */
+    font-family: "GeosansLight";
+    margin-top: 1px;
+
+  }
+
+
+  .buttonstart {
+  
+    margin-left: 860px; /* Adiciona margem à direita do botão */
+  
+  }
+
+
+/* Estilos para os círculos */
+
+.circle {
+
+  width: 160px; /* Aumente o tamanho do círculo */
+  height: 160px; /* Aumente o tamanho do círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  align-items: inline;
+}
+
+
+.image-container p {
+
+display: inline-block;
+font-size: 5px;
+
+}
+
+
+.image-container h3 {
+
+font-size: 10px;
+
+}
+
+}
+
+
+@media (max-width: 1280px) {
+
+  .title {
+
+    font-size: 10px;
+    margin-left: 25px; /* Remove a margem esquerda */
+    margin-right: 0; /* Remove a margem direita */
+    font-family: "GeosansLight";
+    margin-top: 1px;
+
+  }
+
+  .buttonstart {
+  
+    margin-left: 719px; /* Adiciona margem à direita do botão */
+  
+  }
+
+  .circle {
+
+    width: 160px; /* Aumente o tamanho do círculo */
+    height: 160px; /* Aumente o tamanho do círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    align-items: inline;
+    
+  }
+
+  .image-container p {
+
+    display: inline-block;
+    font-size: 5px;
+    
+    }
+    
+    .image-container h3 {
+
+      font-size: 10px;
+      
+      }
+
+}
+
+
+
+/* Estilos para a logo */
+.logo {
+  margin-left: 20px; /* Adicione margem direita para afastar a logo da borda */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Estilos para o texto */
+.centered-text {
+  font-family: 'Gill Sans MT', sans-serif;
+  font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+  text-align: center; /* Centraliza o texto */
+  margin-top: 100px; /* Ajusta a margem superior */
+  /* Outros estilos que você queira aplicar */
+}
+
+
+.sub-square h3,
+.sub-square p {
+  transform: perspective(500px) rotateX(90deg);
+  transform-origin: top center;
+  opacity: 0;
+}
+
+/* Estilos para o quadrado principal */
+.square {
+  width: 640px; /* Tamanho do quadrado principal */
+  height: 640px; /* Tamanho do quadrado principal */
+  border: 2px solid black; /* Borda preta de 2px */
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 220px; /* Alterado o valor para 20px para melhorar a aparência */
+  margin-left: 1150px; /* Alterado o valor para 20px para melhorar a aparência */
+  
+}
+
+/* Estilos para a linha horizontal */
+.horizontal-line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-1px); /* Ajuste para corrigir a posição da linha horizontal */
+}
+
+/* Estilos para a linha vertical */
+.vertical-line {
+  width: 2px; /* Largura da linha vertical */
+  height: 100%; /* Altura da linha vertical */
+  background-color: black; /* Cor da linha vertical */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-1px); /* Ajuste para corrigir a posição da linha vertical */
+}
+
+/* Estilos para os subquadrados */
+.sub-square {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilos para as imagens nos subquadrados */
+.sub-square img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+/* Estilos para os títulos (h3) nos subquadrados */
+.sub-square h3 {
+  margin: 30px 0px;
+  font-size: 20px;
+  font-family: 'Microsoft JhengHei', sans-serif; /* Aplicando a fonte */
+  margin-bottom: 5px;
+}
+
+/* Estilos para os parágrafos (p) nos subquadrados */
+.sub-square p {
+  margin: 45px 0;
+  font-size: 16px;
+  font-family: 'Microsoft JhengHei', sans-serif; /* Aplicando a fonte */
+  margin-bottom: 1px;
+}
+
+/* Estilos para as divs na parte inferior */
+.bottom-sub-squares {
+  display: flex;
+}
+
+.bottom-sub-squares .sub-square {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+.bottom-sub-squares .sub-square img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.bottom-sub-squares .sub-square h3 {
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Microsoft JhengHei', sans-serif;
+  margin-bottom: 20px;
+}
+
+.bottom-sub-squares .sub-square p {
+  margin: 40px;
+  font-size: 16px;
+  font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+
+.botoes {
+  
+  text-align: right; /* Alinha os botões à direita */
+  position: fixed; /* Posiciona os botões de forma absoluta */
+  top: 500px; /* Coloca os botões no topo da página */
+  margin-left: 96px; /* Coloca os botões à direita da página */
+
+}
+
+
+/* Estilização para os botões dentro da classe "botoes" */
+.botoes button {
+  font-family: "Segoe UI Black"; /* Use a fonte personalizada com alternativa genérica */
+  background-color: #d8c200;
+  color: #333333da; /* Cor do texto branca */
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 8px 20px;
+  display: block; /* Faz com que os botões ocupem toda a largura disponível */
+  transform: translateY(-5px); /* Move o botão para cima ao passar o mouse */
+  box-shadow: 0px 5px 10px #00000094; /* Adiciona uma sombra */
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Adiciona transições suaves */
+
+  /* Efeito 3D */
+  perspective: 1000px; /* Define a perspectiva para criar o efeito 3D */
+}
+
+
+.botoes button:hover {
+  transform: translateY(-10px) translateZ(10px); /* Move o botão para cima e para frente */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra mais pronunciada */
+}
+
+      
+
+/* MENU */ 
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3a3a3a; /* Cor de fundo do menu */
+  padding: 20px; /* Espaçamento interno do menu */
+  z-index: 999; /* Para garantir que o menu fique acima de tudo */
+  overflow: hidden; /* Remova a rolagem do conteúdo */
+}
+
+
+
+
+.menu a {
+  color: #ffffff; /* Cor do texto do menu */
+}
+
+
+.closertitle {
+  font-size: 20px;
+  margin-left: 92px;
+  font-family: "GeosansLight";
+  margin-top: 40px;
+  color: white; /* Adicione a propriedade color com a cor branca */
+  margin-top: 100px; 
+}
+
+
+
+/* Animação para fechar o menu gradualmente */
+@keyframes closeMenuAnimation {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+}
+
+
+.menu.closing {
+  animation: closeMenuAnimation 0.5s forwards;
+}
+
+
+/* BOTÃO DO MENU */
+
+#buttonclose {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: absolute;
+  top: 125px; /* Ajuste a posição vertical conforme necessário */
+  right: 200px; /* Ajuste a posição horizontal conforme necessário */
+}
+
+
+#buttonclose .line {
+  width: 30px;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 0;
+}
+
+
+#buttonclose:focus {
+  outline: none;
+}
+
+
+
+/* GUIAS DO MENU */
+
+.menu p {
+  font-family: 'GeosansLight', sans-serif; /* Aplicar a fonte 'Adelaide-Regular' aos elementos <p> */
+  font-weight: 100; /* Defina o peso da fonte como thin (leve) */
+  margin: 0; /* Remover margens padrão dos parágrafos */
+}
+
+.menu a {
+  font-family: 'GeosansLight', sans-serif;
+  font-weight: 100;
+  font-size: 100px; /* Aumente o tamanho da fonte para 50px */
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu a:hover {
+  text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+
+/* Adicionar espaçamento entre as palavras */
+.menu-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ocupar toda a altura do menu */
+  word-spacing: 10px; /* Adicionar espaçamento entre as palavras */
+}
+
+.container {
+  display: block;
+}
+
+
+/* Estilizar a <div class="guias"> */
+.guias {
+  display: flex;
+  flex-direction: row; /* Altera a direção para uma linha */
+  align-items: flex-start; /* Alinha as palavras ao topo */
+  height: 100%;
+  padding-left: 80px;
+  margin-top: 5px;
+}
+
+.guias a {
+  font-family: 'GeosansLight', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: #ffffff;
+  margin: 0;
+  white-space: nowrap;
+  padding: 350px 15px; /* Ajusta o espaçamento acima e abaixo */
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Adiciona transição de cor */
+}
+
+.guias a:hover {
+  transform: perspective(800px) rotateY(40deg);
+  color: gold; /* Muda a cor do texto para dourado */
+}
+
+
+/* DUVIDAS */ 
+
+/* Estilos para o botão "Voltar ao Início" */
+#voltarInicio {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3a3a3a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#voltarInicio:hover {
+  background-color: #3a3a3a;
+}
+
+.casa {
+
+  margin-top: 600px;
+  margin-left: 1150px;
+}
+
+/* Estilo para o conteúdo principal (ajuste conforme necessário) */
+.conteudo {
+ 
+  height: 50vh; /* Garante que o conteúdo ocupe pelo menos a altura da janela de visualização */
+}
+
+/* Estilo para o rodapé */
+.rodape {
+  background-color: #000000;
+  padding: 0px; /* Ajuste o valor do padding-top conforme necessário */
+  width: 100%;
+  color: white;
+  height: 25h;
+  position: absolute;
+  display: flex;
+  flex-direction: column; /* Para centralizar verticalmente o conteúdo */
+  justify-content: center; /* Centralize verticalmente */
+  align-items: center; /* Centralize horizontalmente */
+  margin-top: 2000px;
+}
+
+
+/* Estilo para links no rodapé */
+.rodape a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilo para parágrafos no rodapé */
+.rodape p {
+  margin-top: 30px; /* Adicione uma margem na parte superior de cada <p> */
+  font-family: "Rubik";
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-left: 140px;
+  text-align: center;
+}
+
+/* Estilo para o contêiner principal do rodapé */
+.rodape-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: center; /* Centralize os elementos horizontalmente */
+  padding: 60px 10px 60px 10px; /* Ajuste o espaçamento conforme necessário */
+}
+
+/* Estilo para as três colunas dentro do rodapé */
+.rodape-div-1, .rodape-div-2, .rodape-div-3 {
+  display: flex;
+  width: calc(100% / 3 - 20px); /* Ajuste o número de colunas conforme necessário */
+  padding: 10px 0; /* Remova o espaçamento interno à direita e à esquerda */
+  margin-left: 10px;
+  
+}
+
+
+/* Estilo para os spans dentro do rodapé */
+.rodape span {
+
+  font-size: 13px;
+  color: rgb(122, 122, 122);
+  font-family: "DejaVu Sans Condensed";
+  margin-bottom: 1px; /* Adicione uma margem na parte inferior de cada <span> */
+  margin-left: 220px;
+ 
+  
+}
+
+.rodape-div-1-coluna span {
+
+margin-left: 327px;
+
+}
+
+.rodape-div-3-coluna span {
+
+  margin-left: 248px;
+  
+  }
+
+/* Estilo para o parágrafo com a classe .rodapedireitos */
+.rodapedireitos {
+  font-family: "DejaVu Sans Condensed";
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 120px;
+  padding-top: 40px;
+  margin-bottom: 0;
+}
+
+
+/* Adicione a linha branca no meio do rodapé usando um gradiente */
+.rodape::before {
+
+  content: "";
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  height: 1px; /* Espessura da linha */
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  z-index: 1;
+  margin-top: 80px;
+
+}
