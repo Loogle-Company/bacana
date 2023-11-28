@@ -87,12 +87,12 @@ function redirecionarParaMatriculaonline() {
 
 function redirecionarParaRepositórioConfiavél() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "#";
+  window.location.href = "./escolha/flip-nine/index.html";
 }
 
 function redirecionarParaUsucapiao() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "#";
+  window.location.href = "./escolha/flip-ten/index.html";
 }
 
 
