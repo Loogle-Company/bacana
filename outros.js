@@ -82,7 +82,7 @@ function redirecionarParaintimaçõesConsolidação() {
 
 function redirecionarParaMatriculaonline() {
   // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "./escolha/flip-eigth/index.html"; 
+  window.location.href = "./escolha/flip-eight/index.html"; 
 }
 
 function redirecionarParaRepositórioConfiavél() {
