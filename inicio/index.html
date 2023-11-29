@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;
+            transition: all 2s ease;
+        }
+
+        html, body {
+            height: 100vh;
+        }
+
+        #a {
+            background-color: rgb(53, 53, 53);
+            height: 50vh;
+            top: 0;
+            position: relative;
+        }
+
+        #b {
+            background-color: rgb(53, 53, 53);
+            height: 50vh;
+            position: relative;
+            bottom: 0;
+        }
+
+        /* Efeito de transição */
+        #a.a {
+            top: -50vh;
+        }
+
+        #b.b {
+            bottom: -50vh;
+        }
+
+        .texto p {
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    z-index: 999;
+    display: none; /* Começa escondido */
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        height: 0;
+    }
+    to {
+        opacity: 1;
+        height: auto;
+    }
+}
+
+
+        .texto.show {
+    position: absolute;
+    right: 50%; /* Alterado de 34% para 50% */
+    top: 49%;
+    transform: translateX(50%); /* Adicionado para centralizar */
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+
+        /* Nova classe para esconder a div B após a transição */
+        .b-hidden {
+            display: none;
+        }
+
+        .loader {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 50%;
+            left: 45%;
+        }
+
+        .loader div {
+            background: rgb(255, 255, 255);
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            z-index: 1;
+            animation: anim 2s infinite linear;
+            animation-delay: calc(-0.3s * var(--i));
+            transform: translateY(5px);
+            margin: 0.2em;
+        }
+
+        @keyframes anim {
+            0%, 100% {
+                transform: translateY(5px);
+            }
+            50% {
+                transform: translateY(-40px);
+            }
+        }
+
+        @keyframes anim2 {
+            0%, 100% {
+                transform: rotate(-10deg);
+            }
+            50% {
+                transform: rotate(10deg);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="a"></div>
+    <div id="b"></div>
+
+    <!-- TELA DE CARREGAMENTO -->
+    <div class="texto show">
+        <p>1º SERVIÇO DE REGISTRO DE IMÓVEIS DE CAMPO LARGO</p>
+    </div>
+
+    <div class="loader">
+        <div style="--i: 1"></div>
+        <div style="--i: 2"></div>
+        <div style="--i: 3"></div>
+        <div style="--i: 4"></div>
+    </div>
+
+    <script>
+// Adiciona as classes 'a' e 'b' após 2 segundos
+setTimeout(function () {
+    document.getElementById('a').classList.add('a');
+    document.getElementById('b').classList.add('b');
+
+    // Adiciona a classe 'b-hidden' à div B após a transição
+    setTimeout(function () {
+        document.getElementById('b').classList.add('b-hidden');
+    }, 2000);
+
+    // Oculta as bolinhas brancas do carregamento após 2 segundos
+    setTimeout(function () {
+        $('.loader div').css('display', 'none');
+    }, 100);
+
+    // Adiciona as classes 'show' e 'hidden' ao texto após a transição
+    $('.texto p').css('display', 'block'); // Exibe o texto
+    $('.texto').fadeIn(1000).css('display', 'flex');
+    $('.texto p').animate({ fontSize: '45px' }, 1000);
+
+    // Oculta o texto após a animação
+    setTimeout(function () {
+        $('.texto').css('display', 'none');
+    }, 2300);
+
+}, 2000); // Reduzi o tempo para 1 segundo para que o texto seja exibido imediatamente
+
+    </script>
+    
+    
+</body>
+</html>
