@@ -432,6 +432,8 @@ p {
 
 
 
+
+
   @media only screen and (max-width: 600px) {
 
 
@@ -444,7 +446,7 @@ p {
     }
 
 
-    .meio{
+    .meio {
       margin-left: 1%;
     
     }
@@ -452,6 +454,25 @@ p {
     .opcao-container p {
 
       display: none;
+
+    }
+
+    .opcao-container h3 {
+
+      font-size: 15px;
+    }
+
+
+    
+    .objeto h1 {
+
+      font-size: 20px;
+    }
+
+    .objeto h2 {
+
+      font-size: 15px;
+      
     }
 
 
@@ -481,6 +502,22 @@ p {
       display: none;
     }
 
+    .opcao-container h3 {
+
+      font-size: 15px;
+    }
+
+    
+    .objeto h1 {
+
+      font-size: 20px;
+    }
+
+    .objeto h2 {
+
+      font-size: 15px;
+      
+    }
 
   }
 
@@ -488,6 +525,16 @@ p {
 
 
 
+    .objeto h1 {
+
+      font-size: 20px;
+    }
+
+    .objeto h2 {
+
+      font-size: 15px;
+
+    }
 
     
     .buttonstart {
@@ -506,6 +553,12 @@ p {
     .opcao-container p {
 
       display: none;
+
+    }
+
+    .opcao-container h3 {
+
+      font-size: 15px;
     }
 
   }
