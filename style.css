@@ -434,70 +434,6 @@ p {
 
   }
 
-
-
-
-  @media only screen and (max-width: 600px) {
-
-
-    
-    .buttonstart {
-
-      margin-right: 2%;
-      margin-top: 20px;
-
-    }
-
-
-    .meio {
-      margin-left: 4%;
-    
-    }
-
-    .opcao-container p {
-
-      display: none;
-
-    }
-
-    .opcao-container h3 {
-
-      font-size: 15px;
-      margin-bottom: 25px;
-    }
-
-
-    
-    .objeto h1 {
-
-      font-size: 20px;
-      margin-top: 5px;
-    }
-
-    .objeto h2 {
-
-      font-size: 15px;
-      
-    }
-
-    
-    .botoes{
-
-      right: 250px;
-      top: 355px;
-
-    }
-
-    .botoes button {
-
-      padding: 5px 15px;
-      font-size: 10px;
-      margin-bottom: 29px;
-
-    }
-
-  }
-
   @media only screen and (min-width: 401px) and (max-width:600px) {
 
 
@@ -627,4 +563,3 @@ p {
     }
 
   }
-
