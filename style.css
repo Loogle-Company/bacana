@@ -428,11 +428,6 @@ p {
 
   @media only screen and (max-width: 600px) {
 
-    .objeto h1 {
-
-      font-size: 15px;
-
-    }
 
     
     .buttonstart {
@@ -441,16 +436,24 @@ p {
       margin-top: 20px;
 
     }
+
+
+    .meio{
+      margin-left: 1%;
+    
+    }
+
+    .opcao-container p {
+
+      display: none;
+    }
+
 
   }
 
   @media only screen and (min-width: 200px) and (max-width:300px) {
 
-    .objeto h1 {
 
-      font-size: 15px;
-
-    }
 
     
     
@@ -459,6 +462,17 @@ p {
       margin-right: 2%;
       margin-top: 20px;
 
+    }
+
+    .meio{
+      margin-left: 1%;
+    
+    }
+
+    
+    .opcao-container p {
+
+      display: none;
     }
 
 
@@ -466,11 +480,7 @@ p {
 
   @media only screen and (min-width: 300px) and (max-width:400px) {
 
-    .objeto h1 {
 
-      font-size: 5px;
-
-    }
 
 
     
@@ -479,6 +489,17 @@ p {
       margin-right: 2%;
       margin-top: 20px;
 
+    }
+
+    .meio{
+      margin-left: 1%;
+    
+    }
+
+    
+    .opcao-container p {
+
+      display: none;
     }
 
   }
