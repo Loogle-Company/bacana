@@ -134,6 +134,8 @@ html, body {
 }
 
 
+
+
 .opcao-container {
     margin-bottom: 20px; /* Adiciona espaço entre as opções */
 }
@@ -422,8 +424,12 @@ p {
   }
   
   #voltarInicio:hover {
+
     background-color: #333;
+
   }
+
+
 
 
   @media only screen and (max-width: 600px) {
