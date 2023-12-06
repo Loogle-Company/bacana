@@ -141,14 +141,17 @@ html, body {
 }
 
 .botoes {
+
   text-align: right; /* Alinha os botões à direita */
   position: absolute; /* Posiciona os botões de forma absoluta */
   top: 390px; /* Coloca os botões no topo da página */
   right: 600px; /* Coloca os botões à direita da página */
+
 }
 
 /* Estilização para os botões dentro da classe "botoes" */
 .botoes button {
+
   font-family: "Lato-Regular"; /* Use a fonte personalizada */
   background-color: #d8c200;
   color: #333; /* Cor do texto branca */
@@ -159,6 +162,8 @@ html, body {
   margin-bottom: 60px; /* Espaço entre os botões */
   display: block; /* Faz com que os botões ocupem toda a largura disponível */
   transition: transform 0.2s ease-in-out;
+
+
 }
 
 /* Estilos para a animação de hover */
@@ -432,8 +437,6 @@ p {
 
 
 
-
-
   @media only screen and (max-width: 600px) {
 
 
@@ -447,7 +450,7 @@ p {
 
 
     .meio {
-      margin-left: 1%;
+      margin-left: 4%;
     
     }
 
@@ -460,6 +463,7 @@ p {
     .opcao-container h3 {
 
       font-size: 15px;
+      margin-bottom: 25px;
     }
 
 
@@ -467,6 +471,7 @@ p {
     .objeto h1 {
 
       font-size: 20px;
+      margin-top: 5px;
     }
 
     .objeto h2 {
@@ -475,6 +480,21 @@ p {
       
     }
 
+    
+    .botoes{
+
+      right: 250px;
+      top: 355px;
+
+    }
+
+    .botoes button {
+
+      padding: 5px 15px;
+      font-size: 10px;
+      margin-bottom: 29px;
+
+    }
 
   }
 
@@ -491,8 +511,8 @@ p {
 
     }
 
-    .meio{
-      margin-left: 1%;
+    .meio {
+      margin-left: 4%;
     
     }
 
@@ -500,23 +520,43 @@ p {
     .opcao-container p {
 
       display: none;
+
     }
 
     .opcao-container h3 {
 
       font-size: 15px;
+      margin-bottom: 25px;
+
     }
 
     
     .objeto h1 {
 
       font-size: 20px;
+      margin-top: 5px;
+
     }
 
     .objeto h2 {
 
       font-size: 15px;
       
+    }
+    
+    .botoes{
+
+      right: 250px;
+      top: 355px;
+
+    }
+
+    .botoes button {
+
+      padding: 5px 15px;
+      font-size: 10px;
+      margin-bottom: 29px;
+
     }
 
   }
@@ -528,6 +568,8 @@ p {
     .objeto h1 {
 
       font-size: 20px;
+      margin-top: 5px;
+
     }
 
     .objeto h2 {
@@ -544,8 +586,9 @@ p {
 
     }
 
-    .meio{
-      margin-left: 1%;
+    .meio {
+
+      margin-left: 4%;
     
     }
 
@@ -559,6 +602,24 @@ p {
     .opcao-container h3 {
 
       font-size: 15px;
+      margin-bottom: 25px;
+
+    }
+
+    .botoes{
+
+      right: 250px;
+      top: 355px;
+
+    }
+
+
+    .botoes button {
+
+      padding: 5px 15px;
+      font-size: 10px;
+      margin-bottom: 29px;
+
     }
 
   }
