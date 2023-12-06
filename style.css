@@ -561,34 +561,23 @@ p {
 
   }
 
+
   @media only screen and (min-width: 300px) and (max-width:400px) {
 
 
 
-    .objeto h1 {
-
-      font-size: 20px;
-      margin-top: 5px;
-
-    }
-
-    .objeto h2 {
-
-      font-size: 15px;
-
-    }
-
+    
     
     .buttonstart {
 
-      margin-right: 2%;
+      margin-right: 0%;
       margin-top: 20px;
+ 
 
     }
 
     .meio {
-
-      margin-left: 4%;
+      margin-left: 14%;
     
     }
 
@@ -606,13 +595,26 @@ p {
 
     }
 
+    
+    .objeto h1 {
+
+      font-size: 20px;
+      margin-top: 5px;
+
+    }
+
+    .objeto h2 {
+
+      font-size: 15px;
+      
+    }
+    
     .botoes{
 
       right: 250px;
       top: 355px;
 
     }
-
 
     .botoes button {
 
@@ -623,3 +625,4 @@ p {
     }
 
   }
+
