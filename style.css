@@ -488,6 +488,8 @@ p {
       margin: 0;
       color: rgb(174, 10, 10);
       font-size: 18px;
+      top: 100px;
+      left: 20px;
     }
     
     #menuContainer .redirecionavel {
