@@ -452,21 +452,19 @@ p {
 
     
     #menuButton {
-        
-      background-color: #333;
-      color: #ffffff;
+      background-color: #000000;
+      color: white;
       border: none;
       padding: 7px 10px;
       font-size: 16px;
       cursor: pointer;
-        
     }
     
     #menuContainer {
       display: none;
       position: fixed;
-      top: 10px;
-      right: 20px;
+      top: 0;
+      right: 0;
       height: 100%;
       width: 70%;
       max-width: 600px;
@@ -488,7 +486,7 @@ p {
     
     #menuContainer .item h2 {
       margin: 0;
-      color: white;
+      color: rgb(174, 10, 10);
       font-size: 18px;
     }
     
@@ -575,21 +573,19 @@ p {
 
         
     #menuButton {
-      background-color: #333;
-      color: #ffffff;
+      background-color: #000000;
+      color: white;
       border: none;
       padding: 7px 10px;
       font-size: 14px;
       cursor: pointer;
-      top: 10px;
-      right: 20px;
     }
     
     #menuContainer {
       display: none;
       position: fixed;
-      top: 0px;
-      right: 0px;
+      top: 0;
+      right: 0;
       height: 100%;
       width: 70%;
       max-width: 600px;
@@ -611,7 +607,7 @@ p {
     #menuContainer .item h2 {
       margin: 0;
       color: white;
-      font-size: 20px;
+      font-size: 18px;
     }
     
     #menuContainer .redirecionavel {
