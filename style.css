@@ -453,8 +453,8 @@ p {
     
     #menuButton {
         
-      background-color: #000000;
-      color: white;
+      background-color: #333;
+      color: #ffffff;
       border: none;
       padding: 7px 10px;
       font-size: 16px;
@@ -488,7 +488,7 @@ p {
     
     #menuContainer .item h2 {
       margin: 0;
-      color: rgb(174, 10, 10);
+      color: whrite;
       font-size: 18px;
     }
     
@@ -575,8 +575,8 @@ p {
 
         
     #menuButton {
-      background-color: #000000;
-      color: white;
+      background-color: #333;
+      color: #ffffff;
       border: none;
       padding: 7px 10px;
       font-size: 14px;
