@@ -437,7 +437,49 @@ p {
   @media only screen and (min-width: 401px) and (max-width:600px) {
 
 
-
+    
+    #menuButton {
+      background-color: #000000;
+      color: white;
+      border: none;
+      padding: 7px 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    #menuContainer {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 70%;
+      max-width: 600px;
+      background-color: #333;
+      padding: 20px;
+      box-sizing: border-box;
+      position: absolute;
+    }
+    
+    #menuContainer .bloco {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #menuContainer .item {
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    
+    #menuContainer .item h2 {
+      margin: 0;
+      color: rgb(174, 10, 10);
+      font-size: 18px;
+    }
+    
+    #menuContainer .redirecionavel {
+      cursor: pointer;
+    }
     
     
     .buttonstart {
@@ -445,9 +487,11 @@ p {
       margin-right: 7%;
       margin-top: 20px;
       color: black;
+ 
 
     }
 
+    
     .meio {
       margin-left: 25%;
     
@@ -496,6 +540,15 @@ p {
 
     }
 
+    .closertitle {
+
+      display: none;
+
+    }
+
+
+
+
   }
 
 
@@ -504,6 +557,49 @@ p {
 
 
 
+
+        
+    #menuButton {
+      background-color: #000000;
+      color: white;
+      border: none;
+      padding: 7px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    
+    #menuContainer {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 70%;
+      max-width: 600px;
+      background-color: #333;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    #menuContainer .bloco {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #menuContainer .item {
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    
+    #menuContainer .item h2 {
+      margin: 0;
+      color: rgb(174, 10, 10);
+      font-size: 18px;
+    }
+    
+    #menuContainer .redirecionavel {
+      cursor: pointer;
+    }
     
     
     .buttonstart {
@@ -561,5 +657,20 @@ p {
       margin-bottom: 29px;
 
     }
+
+    .closertitle {
+
+      display: none;
+
+    }
+
+    #botaoMenu {
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+  }
+
 
   }
