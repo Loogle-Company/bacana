@@ -257,6 +257,7 @@ p {
 
 
 .menu {
+
     display: none;
     position: fixed;
     top: 0;
@@ -266,9 +267,9 @@ p {
     background-color: #333; /* Cor de fundo do menu */
     padding: 20px; /* Espaçamento interno do menu */
     box-shadow: 0px 0px 10px rgb(255, 255, 255); /* Adicione sombra para o menu */
-  
     z-index: 1000; /* Para garantir que o menu fique acima de tudo */
     overflow: hidden; /* Remova a rolagem do conteúdo */
+
   }
   
   .menu ul {
@@ -433,6 +434,18 @@ p {
     background-color: #333;
 
   }
+
+  .direita {
+    background-color: rgb(91, 91, 91);
+    width: 16%;
+    height: 100vh;
+    right: 10%;
+    position: absolute;
+    top: 0;
+    opacity: 0; /* Inicia com opacidade 0 para não ser visível */
+    transition: opacity 3s ease; /* Adapte a duração conforme necessário */
+    display: none;
+}
 
   @media only screen and (min-width: 401px) and (max-width:600px) {
 
@@ -664,13 +677,7 @@ p {
 
     }
 
-    #botaoMenu {
-      padding: 10px;
-      background-color: #3498db;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-  }
 
 
   }
+
