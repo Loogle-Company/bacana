@@ -22,12 +22,7 @@ html, body {
     text-align: left; /* Alinha o texto à esquerda */
   }
   
-   #menuButton{
-
-       display:none;
-
-   }
-      
+  
   
   
   
@@ -205,6 +200,11 @@ html, body {
     margin-bottom: 30px; /* Espaço abaixo do h1 */
     line-height: 1.4; /* Define a altura da linha para alinhar a primeira letra */
     margin-top: 20px;
+}
+
+#menuButton{
+
+  display: none;
 }
 
 /* Estilo para o subtítulo h2 dentro da classe "objeto" */
@@ -457,13 +457,13 @@ p {
 
     
     #menuButton {
-      background-color: #333;
+      background-color: #000000;
       color: white;
       border: none;
       padding: 7px 10px;
-      font-size: 14px;
+      font-size: 16px;
       cursor: pointer;
-      display:block;
+      display: block;
     }
     
     #menuContainer {
@@ -489,7 +489,7 @@ p {
     
     #menuContainer .item {
 
-      background-color: #333;
+      background-color: #000000;
       padding: 10px;
       margin-bottom: 20px;
       border-radius: 10px;
@@ -509,6 +509,8 @@ p {
       color: white;
       font-size: 18px;
     }
+
+   
     
     #menuContainer .redirecionavel {
       cursor: pointer;
@@ -594,13 +596,13 @@ p {
 
         
     #menuButton {
-      background-color: #333;
+      background-color: #000000;
       color: white;
       border: none;
       padding: 7px 10px;
       font-size: 14px;
       cursor: pointer;
-      display:block;
+      display: block;
     }
     
     #menuContainer {
@@ -617,10 +619,8 @@ p {
     }
     
     #menuContainer .bloco {
-        
       display: flex;
       flex-direction: column;
-        
     }
     
     #menuContainer .item {
@@ -638,7 +638,6 @@ p {
       position: absolute;
       top: 50%;
       margin-left: 22%;
-        
     }
     
     #menuContainer .item h2 {
@@ -648,9 +647,7 @@ p {
     }
     
     #menuContainer .redirecionavel {
-    
       cursor: pointer;
-        
     }
     
     
@@ -720,7 +717,4 @@ p {
 
   }
 
-
-
-  }
 
