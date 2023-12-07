@@ -457,12 +457,13 @@ p {
 
     
     #menuButton {
-      background-color: #000000;
+      background-color: #333;
       color: white;
       border: none;
       padding: 7px 10px;
-      font-size: 16px;
+      font-size: 14px;
       cursor: pointer;
+      display:block;
     }
     
     #menuContainer {
@@ -599,6 +600,7 @@ p {
       padding: 7px 10px;
       font-size: 14px;
       cursor: pointer;
+      display:block;
     }
     
     #menuContainer {
@@ -646,7 +648,9 @@ p {
     }
     
     #menuContainer .redirecionavel {
+    
       cursor: pointer;
+        
     }
     
     
