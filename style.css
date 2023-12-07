@@ -483,7 +483,7 @@ p {
     
     #menuContainer .item {
 
-      background-color: #000000;
+      background-color: #333;
       padding: 10px;
       margin-bottom: 20px;
       border-radius: 10px;
@@ -588,7 +588,7 @@ p {
 
         
     #menuButton {
-      background-color: #000000;
+      background-color: #333;
       color: white;
       border: none;
       padding: 7px 10px;
@@ -610,8 +610,10 @@ p {
     }
     
     #menuContainer .bloco {
+        
       display: flex;
       flex-direction: column;
+        
     }
     
     #menuContainer .item {
@@ -629,6 +631,7 @@ p {
       position: absolute;
       top: 50%;
       margin-left: 22%;
+        
     }
     
     #menuContainer .item h2 {
