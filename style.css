@@ -22,7 +22,12 @@ html, body {
     text-align: left; /* Alinha o texto à esquerda */
   }
   
-  
+   #menuButton{
+
+       display:none;
+
+   }
+      
   
   
   
