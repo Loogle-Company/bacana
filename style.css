@@ -475,8 +475,10 @@ p {
     }
     
     #menuContainer .bloco {
+
       display: flex;
       flex-direction: column;
+
     }
     
     #menuContainer .item {
@@ -512,6 +514,7 @@ p {
       margin-right: 7%;
       margin-top: 20px;
       color: black;
+  
  
 
     }
@@ -700,6 +703,10 @@ p {
       display: none;
 
     }
+
+
+
+  }
 
 
 
