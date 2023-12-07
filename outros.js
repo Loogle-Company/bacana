@@ -1,10 +1,18 @@
-//  ABRIR MENU  
+document.getElementById('menuButton').addEventListener('click', function() {
+  var menuContainer = document.getElementById('menuContainer');
+  if (!menuContainer.classList.contains('open')) {
+    openMenu();
+  } else {
+    closeMenu();
+  }
+});
 
-
+// ABRIR MENU
 var menu = document.querySelector(".menu"); // Seleciona o elemento com a classe "menu"
 
 function openMenu() {
   menu.style.display = "block";
+  menu.classList.add('open');
   var openingHeight = 0; // Altura inicial do menu abrindo (em pixels)
   var interval = setInterval(function() {
     if (openingHeight < 100) {
@@ -18,7 +26,6 @@ function openMenu() {
 }
 
 // FECHAR MENU
-
 function closeMenu() {
   var closingHeight = 100; // Altura inicial do menu fechando (em pixels)
   var interval = setInterval(function() {
@@ -28,6 +35,7 @@ function closeMenu() {
     } else {
       clearInterval(interval); // Limpa o intervalo quando o menu estiver totalmente fechado
       menu.style.display = "none";
+      menu.classList.remove('open');
       menu.style.clipPath = "none"; // Restaura o clipPath para a forma original
     }
   }, 20); // Intervalo de tempo em milissegundos entre cada movimento
@@ -35,7 +43,6 @@ function closeMenu() {
 
 document.querySelector(".buttonstart").addEventListener("click", openMenu);
 document.querySelector("#buttonclose").addEventListener("click", closeMenu);
-
 
 
 // CERTIDAO DIGITAL
