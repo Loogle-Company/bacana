@@ -581,13 +581,15 @@ p {
       padding: 7px 10px;
       font-size: 14px;
       cursor: pointer;
+      top: 10px;
+      right: 20px;
     }
     
     #menuContainer {
       display: none;
       position: fixed;
-      top: 10px;
-      right: 20px;
+      top: 0px;
+      right: 0px;
       height: 100%;
       width: 70%;
       max-width: 600px;
@@ -609,7 +611,7 @@ p {
     #menuContainer .item h2 {
       margin: 0;
       color: white;
-      font-size: 18px;
+      font-size: 20px;
     }
     
     #menuContainer .redirecionavel {
