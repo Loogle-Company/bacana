@@ -23,10 +23,7 @@
 
 
 
-<!-- POSSIVEIS ESCOLHAS -->
-
 <div class="meio">
-
     <div class="objeto">
         <h1>SERVIÇOS</h1>
         <h2 id="segundo">SELECIONE A OPÇÃO</h2>
@@ -34,6 +31,20 @@
         <button id="btnInicio">Início</button>
 
 </div>
+
+<script>
+    // Aguarde até que o DOM seja totalmente carregado
+    document.addEventListener("DOMContentLoaded", function() {
+        var btnInicio = document.getElementById('btnInicio');
+
+        // Adiciona um ouvinte de clique para o botão Início
+        btnInicio.addEventListener('click', function() {
+            // Redireciona para a página desejada usando um caminho relativo
+            window.location.href = 'https://louglecompany.github.io/tutorial/';
+        });
+    });
+</script>
+
 
     <div class="opcoes">
 
