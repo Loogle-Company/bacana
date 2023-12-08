@@ -23,7 +23,7 @@ html, body {
   }
   
   
-    button {
+   #btnInicio {
     background-color: #333;
     color: white;
     padding: 10px 38px;
