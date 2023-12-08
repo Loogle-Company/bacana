@@ -455,17 +455,16 @@ p {
   @media only screen and (min-width: 401px) and (max-width:600px) {
 
 
-    button {
-    background-color: #333;
-    color: white;
-    padding: 10px 38px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-    text-align: center;
-    margin-left: 46%;
-}
+
+    #btnInicio {
+
+      right: 20px;
+      top: 10px;
+      display: block;
+      position: absolute;
+      padding: 6px 20px;
+  }
+
 
 button:hover {
     background-color: #c54b4b;
@@ -609,17 +608,16 @@ button:hover {
   @media only screen and (min-width: 300px) and (max-width:400px) {
 
 
-button {
-    background-color: #333;
-    color: white;
-    padding: 10px 38px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-    text-align: center;
-    margin-left: 46%;
-}
+
+    #btnInicio {
+
+      right: 20px;
+      top: 10px;
+      display: block;
+      position: absolute;
+      padding: 6px 20px;
+  }
+
 
 button:hover {
     background-color: #c54b4b;
