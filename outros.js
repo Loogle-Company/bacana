@@ -48,58 +48,58 @@ document.querySelector("#buttonclose").addEventListener("click", closeMenu);
 // CERTIDAO DIGITAL
 function redirecionarParaEprotocolo() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/flip-tree/index.html";
+  window.location.href = '#';
 }
 
 function redirecionarParaCertidaoDigital() {
   // Redirecionar para a página correspondente à Certidão Digital
-  window.location.href = "./escolha/flip-two/index.html";
+  window.location.href = '#';
 }
 
 function redirecionarParaPesquisaQualificada() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/index.html";
+  window.location.href = '#';
 }
 
 function redirecionarParaPesquisaPrévia() {
   // Redirecionar para a página correspondente à Usucapião
-  window.location.href = "./escolha/flip-for/index.html";
+  window.location.href = '#';
 }
 
 function redirecionarParaAcompanhamentoRegistral() {
   // Redirecionar para a página correspondente à Certidão Digital
-  window.location.href = "./escolha/segunda/index.html";
+  window.location.href = '#';
 }
 
 function redirecionarParaAssinadorDigital() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/flip-five/index.html";
+  window.location.href = '#';
 }
 
 function redirecionarParaCompradeCrédito() {
   // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "./escolha/flip-six/index.html"; 
+  window.location.href = '#';
 }
 
 
 function redirecionarParaintimaçõesConsolidação() {
   // Redirecionar para a página correspondente à Usucapião
-  window.location.href = "./escolha/flip-seven/index.html";
+  window.location.href = '#';
 }
 
 function redirecionarParaMatriculaonline() {
   // Redirecionar para a página correspondente à Central Eletrônica
-  window.location.href = "./escolha/flip-eight/index.html"; 
+  window.location.href = '#';
 }
 
 function redirecionarParaRepositórioConfiavél() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/flip-nine/index.html";
+  window.location.href ='#';
 }
 
 function redirecionarParaUsucapiao() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = "./escolha/flip-ten/index.html";
+  window.location.href ='#';
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -108,6 +108,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Adiciona um ouvinte de clique para o botão Início
     btnInicio.addEventListener('click', function() {
         // Redireciona para a página desejada usando um caminho absoluto
-        window.location.href = 'https://support.google.com/?hl=pt-BR';
+        window.location.href = '#';
     });
 });
