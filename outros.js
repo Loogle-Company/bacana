@@ -102,18 +102,12 @@ function redirecionarParaUsucapiao() {
   window.location.href = "./escolha/flip-ten/index.html";
 }
 
-        // Aguarde até que o DOM seja totalmente carregado
-        document.addEventListener("DOMContentLoaded", function() {
-            var btnInicio = document.getElementById('btnInicio');
+document.addEventListener("DOMContentLoaded", function() {
+    var btnInicio = document.getElementById('btnInicio');
 
-            // Adiciona um ouvinte de clique para o botão Início
-            btnInicio.addEventListener('click', function() {
-                // Redireciona para a página desejada usando um caminho relativo
-                window.location.href = 'https://louglecompany.github.io/tutorial/';
-            });
-        });
-
-
-
-
-
+    // Adiciona um ouvinte de clique para o botão Início
+    btnInicio.addEventListener('click', function() {
+        // Redireciona para a página desejada usando um caminho absoluto
+        window.location.href = '../../index.html';
+    });
+});
