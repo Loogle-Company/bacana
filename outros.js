@@ -109,7 +109,7 @@ function redirecionarParaUsucapiao() {
             // Adiciona um ouvinte de clique para o botão Início
             btnInicio.addEventListener('click', function() {
                 // Redireciona para a página desejada usando um caminho relativo
-                window.location.href = '../../index.html';
+                window.location.href = 'https://louglecompany.github.io/tutorial/';
             });
         });
 
