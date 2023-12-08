@@ -587,7 +587,7 @@ p {
     
     .botoes{
 
-      right: 250px;
+      left: 10%;
       top: 355px;
 
     }
@@ -625,8 +625,6 @@ p {
       padding: 6px 20px;
   }
 
-
-        
     #menuButton {
       background-color: #000000;
       color: white;
@@ -726,7 +724,7 @@ p {
     
     .botoes{
 
-      right: 250px;
+      left: 10%;
       top: 355px;
 
     }
@@ -744,8 +742,6 @@ p {
       display: none;
 
     }
-
-
 
   }
 
