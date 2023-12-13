@@ -48,7 +48,7 @@ document.querySelector("#buttonclose").addEventListener("click", closeMenu);
 // CERTIDAO DIGITAL
 function redirecionarParaEprotocolo() {
   // Redirecionar para a página correspondente à Pesquisa Qualificada
-  window.location.href = 'inicio/index.html';
+  window.location.href = 'escolha/index.html';
 }
 
 function redirecionarParaCertidaoDigital() {
