@@ -53,7 +53,7 @@ function redirecionarParaEprotocolo() {
 
 function redirecionarParaCertidaoDigital() {
   // Redirecionar para a página correspondente à Certidão Digital
-  window.location.href = '#';
+  window.location.href = 'escolha/flip-five/index.html';
 }
 
 function redirecionarParaPesquisaQualificada() {
